@@ -14,6 +14,7 @@ title: FAQ
   - [How does the Record flow work?](#how-does-the-record-flow-work)
   - [Can I edit or delete a saved log?](#can-i-edit-or-delete-a-saved-log)
   - [What is the Search tab for?](#what-is-the-search-tab-for)
+  - [How are Search results ordered?](#how-are-search-results-ordered)
   - [What is the difference between Search and Logbook?](#what-is-the-difference-between-search-and-logbook)
 - [Activities and Scenes](#activities-and-scenes)
   - [What is the difference between Activities and Scenes?](#what-is-the-difference-between-activities-and-scenes)
@@ -114,6 +115,34 @@ Set a temperature range using the wheel picker, choose a Scene type, and Thermal
 - **Lessons learned** — scenes where you were too cold or too hot
 
 The more logs you add, the more useful Search becomes.
+
+---
+
+### How are Search results ordered?
+
+Within each group (Just Right / Close matches / Lessons learned), results are ranked by a safety-aware scoring formula designed around one principle: **being colder than expected is riskier than being warmer**.
+
+**Plain-language version**
+
+1. **Coverage** — Records that cover your searched temperature range rank higher. For example, if you search 0–10 °C and a record only reaches down to 2 °C, it is missing 2 °C of cold-side coverage and ranks lower than a record that goes to 0 °C or below.
+2. **Cold side weighted double** — A 1 °C gap on the cold side counts twice as heavily as a 1 °C gap on the warm side, because unexpected cold carries greater real-world risk.
+3. **Precision** — When coverage is equal, a record whose temperature range is closer to your search range ranks higher. A 0–10 °C record ranks above a −5–15 °C record for the same search, because the tighter match is a more meaningful reference.
+4. **Recency** — When scores are equal, the more recent record ranks higher.
+
+**For the technically curious — the scoring formula**
+
+```
+minRisk      = max(0, record.min − search.min)   // cold-side gap not covered [°C]
+maxRisk      = max(0, search.max − record.max)   // warm-side gap not covered [°C]
+precisionGap = max(0, search.min − record.min)
+             + max(0, record.max − search.max)   // how far record extends beyond search [°C]
+
+score = minRisk × 2 + maxRisk × 1 + precisionGap
+```
+
+Lower score = higher ranking. Ties are resolved in this order: weighted risk → cold-end distance → record date (newest first).
+
+> If demand warrants it, a future Advanced Settings option may let you adjust the cold-side weighting multiplier (currently ×2) to match your personal risk tolerance.
 
 ---
 
