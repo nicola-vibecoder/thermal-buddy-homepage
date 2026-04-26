@@ -33,11 +33,19 @@ Thermal Buddy **does not** use generative AI or automated decision-making proces
 - **iCloud**: If you use iCloud Sync, your data is stored on Apple's servers subject to Apple's Privacy Policy.
 - **GitHub**: If you submit a bug report via GitHub, any information you provide in the issue will be public on the GitHub platform.
 
-## 4. Compliance
+## 4. Data Retention and Deletion
+
+- **Retention**: Your data is stored on your device and in your personal iCloud storage for as long as you choose to keep the App installed or maintain your iCloud backups. We do not store your data on our own servers.
+- **Deletion**: You can delete your data at any time by:
+    1. Deleting individual logs within the App.
+    2. Deleting the App from your device.
+    3. Managing and deleting the App's data via your iOS iCloud settings (Settings > Apple Account > iCloud > Manage Account Storage).
+
+## 5. Compliance
 
 This policy is designed to comply with the 2026 App Store Review Guidelines regarding data transparency and user privacy.
 
-## 5. Contact
+## 6. Contact
 
 If you have any questions about this Privacy Policy, please contact us via the GitHub Issues page.
 
