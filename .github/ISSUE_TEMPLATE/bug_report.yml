@@ -1,0 +1,52 @@
+name: Bug Report / バグ報告
+description: Report a bug to help us improve Thermal Buddy / アプリの不具合を報告して改善に協力する
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug! Please fill out the information below.
+        不具合の報告ありがとうございます！以下の情報の入力をお願いします。
+  - type: input
+    id: os_version
+    attributes:
+      label: OS Version / OSバージョン
+      placeholder: e.g. iOS 17.4
+    validations:
+      required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: App Version / アプリバージョン
+      placeholder: e.g. 1.0 (Build 5)
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce / 再現手順
+      description: How did the bug happen? / どのようにして不具合が発生しましたか？
+      placeholder: |
+        1. Open the app
+        2. Tap on ...
+        3. See the error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior / 期待される動作
+      description: What did you expect to happen? / 本来どのような動作を期待していましたか？
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior / 実際の動作
+      description: What actually happened? / 実際に何が起こりましたか？
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context / その他
+      description: Screenshots, recordings, or any other info. / スクリーンショットや録画などがあれば添付してください。

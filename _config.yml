@@ -1,0 +1,11 @@
+title: Thermal Buddy Support
+description: Official support site for Thermal Buddy - Your ultimate thermal logging companion.
+theme: jekyll-theme-minimal
+google_analytics: # Add your ID here if you have one
+show_downloads: false
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Custom settings
+author: Eiji Akiyama
+copyright: "© 2026 Eiji Akiyama (Thermal Buddy)"
