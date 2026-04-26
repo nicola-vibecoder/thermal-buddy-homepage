@@ -35,7 +35,6 @@ title: FAQ
   - [Can the developer see my personal logs?](#can-the-developer-see-my-personal-logs)
 - [Privacy & AI](#privacy--ai)
   - [Does Thermal Buddy use generative AI for my data?](#does-thermal-buddy-use-generative-ai-for-my-data)
-  - [Does the app collect analytics?](#does-the-app-collect-analytics)
 - [Troubleshooting & Support](#troubleshooting--support)
   - [iCloud sync is not working. What should I check?](#icloud-sync-is-not-working-what-should-i-check)
   - [I found a bug or want to request a feature.](#i-found-a-bug-or-want-to-request-a-feature-where-should-i-contact-you)
@@ -255,12 +254,6 @@ No. Your user-generated data is not accessible to us.
 ### Does Thermal Buddy use generative AI for my data?
 
 No. Thermal Buddy does not use generative AI to process your personal data. All search and ranking is performed on-device using your own logged history.
-
----
-
-### Does the app collect analytics?
-
-The app may collect basic, anonymized telemetry to improve stability and performance. No personally identifiable information (PII) is collected.
 
 ---
 

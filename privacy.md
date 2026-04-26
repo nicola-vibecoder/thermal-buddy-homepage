@@ -22,7 +22,7 @@ The App allows you to create and manage the following types of data:
 This data is stored locally on your device and, if enabled, synced via your private iCloud account. We do not have access to this data.
 
 ### Analytics and Crash Reporting
-We may use basic, anonymized telemetry to improve the App's performance. No personally identifiable information (PII) is collected.
+Thermal Buddy does not collect analytics data, crash reports, or any other telemetry. No data about your usage is transmitted to us.
 
 ## 2. Artificial Intelligence (AI) Usage
 
