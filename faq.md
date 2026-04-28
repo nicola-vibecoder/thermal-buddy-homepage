@@ -28,6 +28,9 @@ title: FAQ
 - [Settings Customization](#settings-customization)
   - [What can I customize in Settings?](#what-can-i-customize-in-settings)
   - [What does "Temperature Range" in Settings do?](#what-does-temperature-range-in-settings-do)
+- [Design Philosophy](#design-philosophy)
+  - [Why is the app Dark Mode only?](#why-is-the-app-dark-mode-only)
+  - [What is the philosophy behind the "Just Right" pulse?](#what-is-the-philosophy-behind-the-just-right-pulse)
 - [Premium](#premium)
   - [Is Thermal Buddy free?](#is-thermal-buddy-free)
 - [Data & Sync](#data--sync)
@@ -150,7 +153,12 @@ Lower score = higher ranking. Ties are resolved in this order: weighted risk →
 
 **Logbook** is a chronological archive. Use it to browse or search your history by keyword, activity, or date — for reviewing what happened on a past trip.
 
+![Logbook Screen](./assets/images/faq/en-logbook.png)
+
 **Search** is a gear-recommendation engine. You describe future conditions (temperature + scene type) and it surfaces past scenes where your gear performed well — for planning what to wear next time.
+
+![Search Screen](./assets/images/faq/en-search.png)
+![Search Results](./assets/images/faq/en-search-result.png)
 
 ---
 
@@ -240,11 +248,34 @@ In the Settings area you can customize:
 - **Temperature Range** — the min/max range available on the temperature wheel picker
 - **Accent Theme** — the highlight colour used throughout the app
 
+![Custom Activity](./assets/images/faq/en-custom-activity.png)
+![Custom Icons](./assets/images/faq/en-custom-icons.png)
+
 ---
 
 ### What does "Temperature Range" in Settings do?
 
 It sets the lower and upper bounds of the temperature wheel picker used when recording a Scene and when searching. The default range is −30 to 50 °C (−22 to 122 °F), which covers most outdoor conditions. If you regularly operate in more extreme environments — or want a tighter range for easier picking — you can adjust these bounds here.
+
+---
+
+## Design Philosophy
+
+### Why is the app Dark Mode only?
+
+Outdoor gear management often happens in the "shoulder hours"—early morning alpine starts, inside a dim tent at night, or at a dark trailhead. 
+
+- **Preserving Night Vision**: A bright white screen can be blinding in the dark. Dark mode keeps your eyes adjusted to the environment.
+- **Battery Efficiency**: On OLED screens, dark mode significantly reduces power consumption, which is critical when you are away from a charger for multiple days.
+- **Precision Aesthetic**: We believe gear management is a serious task. The "Slate and Cyan" aesthetic is designed to feel like a precision instrument.
+
+---
+
+### What is the philosophy behind the "Just Right" pulse?
+
+When you achieve a "Just Right" thermal rating, the icon on the Home screen and in your stats performs a subtle, ambient "breathing" pulse.
+
+This is the app’s "signature moment." It’s a quiet celebration of successful preparation. We chose a slow, rhythmic pulse rather than a flashy animation to reflect the calm and confidence that comes with having the right gear for the conditions.
 
 ---
 
