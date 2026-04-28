@@ -3,6 +3,8 @@ layout: default
 title: Privacy Policy
 ---
 
+{% include site-banner-lang.html %}
+
 # Privacy Policy
 
 **Last Updated: April 26, 2026**

@@ -3,9 +3,7 @@ layout: default
 title: よくある質問 (FAQ)
 ---
 
-<div class="support-page-banner">
-<img src="{{ '/assets/images/banner-dark-grey.svg' | relative_url }}" alt="Thermal Buddy" width="1536" height="1024" style="width:100%;max-width:100%;height:auto;display:block;margin:0 0 1.25rem 0;border-radius:4px;" />
-</div>
+{% include site-banner-lang.html %}
 
 # よくある質問 (FAQ)
 

@@ -3,9 +3,7 @@ layout: default
 title: Home
 ---
 
-<div class="support-page-banner">
-<img src="{{ '/assets/images/banner-dark-grey.svg' | relative_url }}" alt="Thermal Buddy" width="1536" height="1024" style="width:100%;max-width:100%;height:auto;display:block;margin:0 0 1.25rem 0;border-radius:4px;" />
-</div>
+{% include site-banner-lang.html %}
 
 # Welcome to Thermal Buddy Support
 
@@ -15,7 +13,6 @@ Thermal Buddy is a native iOS app created by Eiji, a hiker, backpacker, and trai
 
 - [Frequently Asked Questions (FAQ)](faq.md)
 - [Privacy Policy](privacy.md)
-- [日本語ページはこちら (Japanese)](./jp/)
 
 ## Getting Help
 

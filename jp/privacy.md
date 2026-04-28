@@ -3,6 +3,8 @@ layout: default
 title: プライバシーポリシー
 ---
 
+{% include site-banner-lang.html %}
+
 # プライバシーポリシー
 
 **最終更新日: 2026年4月26日**
