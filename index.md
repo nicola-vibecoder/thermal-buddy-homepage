@@ -19,7 +19,9 @@ Thermal Buddy is a native iOS app created by Eiji, a hiker, backpacker, and trai
 
 ## Getting Help
 
-The best way to get help or suggest features is to **[open an issue on our GitHub repository](https://github.com/nicola-vibecoder/thermal-buddy/issues)**.
+The best way to get help or suggest features is to open an issue on GitHub.
+
+<p class="cta-actions"><a href="https://github.com/nicola-vibecoder/thermal-buddy/issues" class="github-issue-button">Open GitHub Issues</a></p>
 
 Using GitHub Issues is the preferred method because:
 - **Transparency:** You can see if others have reported the same issue.
@@ -29,32 +31,6 @@ Using GitHub Issues is the preferred method because:
 ## Contact Us
 
 If you have trouble using GitHub or have a private matter, use the buttons below to send an email. This method helps protect against automated spam.
-
-<style>
-.contact-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #24292e;
-  color: #ffffff !important;
-  text-decoration: none !important;
-  border-radius: 6px;
-  font-weight: 600;
-  font-size: 14px;
-  border: none;
-  cursor: pointer;
-  margin-top: 10px;
-  transition: background-color 0.2s ease;
-}
-.contact-button:hover {
-  background-color: #2f363d;
-}
-.contact-label {
-  display: block;
-  font-weight: 600;
-  margin-top: 15px;
-  margin-bottom: 5px;
-}
-</style>
 
 <script>
 function sendSecureEmail(encodedEmail) {

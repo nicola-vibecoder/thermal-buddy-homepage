@@ -19,7 +19,9 @@ Thermal Buddy は、ハイカー・バックパッカー・トレイルランナ
 
 ## ヘルプが必要な場合
 
-バグの報告や機能の提案には、**[GitHub リポジトリで Issue を作成する](https://github.com/nicola-vibecoder/thermal-buddy/issues)** のが最も確実な方法です。
+バグの報告や機能の提案には、GitHub で Issue を作成するのが最も確実な方法です。
+
+<p class="cta-actions"><a href="https://github.com/nicola-vibecoder/thermal-buddy/issues" class="github-issue-button">GitHub で Issue を開く</a></p>
 
 GitHub での報告を推奨する理由は以下の通りです。
 - **透明性:** 他のユーザーが同じ問題を報告していないか確認できます。
@@ -29,32 +31,6 @@ GitHub での報告を推奨する理由は以下の通りです。
 ## お問い合わせ
 
 GitHub の利用が難しい場合や、個別の連絡が必要な場合は以下のボタンからメールを送信してください。スパム対策としてメールアドレスを保護しています。
-
-<style>
-.contact-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #24292e;
-  color: #ffffff !important;
-  text-decoration: none !important;
-  border-radius: 6px;
-  font-weight: 600;
-  font-size: 14px;
-  border: none;
-  cursor: pointer;
-  margin-top: 10px;
-  transition: background-color 0.2s ease;
-}
-.contact-button:hover {
-  background-color: #2f363d;
-}
-.contact-label {
-  display: block;
-  font-weight: 600;
-  margin-top: 15px;
-  margin-bottom: 5px;
-}
-</style>
 
 <script>
 function sendSecureEmail(encodedEmail) {
