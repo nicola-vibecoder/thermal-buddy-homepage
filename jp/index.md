@@ -13,9 +13,9 @@ Thermal Buddy は、ハイカー・バックパッカー・トレイルランナ
 ## サポートリソース
 
 - [よくある質問 (FAQ)](faq.md)
-- [プライバシーポリシー](privacy.md)
-- [バージョン履歴](version-history.md)
 - [ロードマップ](roadmap.md)
+- [バージョン履歴](version-history.md)
+- [プライバシーポリシー](privacy.md)
 
 ## ヘルプが必要な場合
 
