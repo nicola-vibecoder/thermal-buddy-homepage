@@ -7,7 +7,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-**Last Updated: April 26, 2026**
+**Last Updated: April 29, 2026**
 
 Thermal Buddy ("the App") is committed to protecting your privacy. This Privacy Policy explains how we handle your data.
 

@@ -7,6 +7,8 @@ title: よくある質問 (FAQ)
 
 # よくある質問 (FAQ)
 
+<p class="page-meta">最終更新: 2026年4月29日</p>
+
 - [Thermal Buddy について](#thermal-buddy-について)
   - [Thermal Buddy でできることは？](#thermal-buddy-でできることは)
   - [誰が作ったの？](#誰が作ったの)

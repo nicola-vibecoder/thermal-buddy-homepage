@@ -7,6 +7,8 @@ title: FAQ
 
 # Frequently Asked Questions (FAQ)
 
+<p class="page-meta">Last updated: April 29, 2026</p>
+
 - [About Thermal Buddy](#about-thermal-buddy)
   - [What is Thermal Buddy?](#what-is-thermal-buddy)
   - [Who made Thermal Buddy?](#who-made-thermal-buddy)

@@ -4,6 +4,7 @@ title: Home
 ---
 
 {% include site-banner-lang.html %}
+{% include callout-public-testing.html %}
 
 # Welcome to Thermal Buddy Support
 
@@ -13,6 +14,8 @@ Thermal Buddy is a native iOS app created by Eiji, a hiker, backpacker, and trai
 
 - [Frequently Asked Questions (FAQ)](faq.md)
 - [Privacy Policy](privacy.md)
+- [Version History](version-history.md)
+- [Roadmap](roadmap.md)
 
 ## Getting Help
 

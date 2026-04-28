@@ -4,6 +4,7 @@ title: ホーム
 ---
 
 {% include site-banner-lang.html %}
+{% include callout-public-testing.html %}
 
 # Thermal Buddy サポートへようこそ
 
@@ -13,6 +14,8 @@ Thermal Buddy は、ハイカー・バックパッカー・トレイルランナ
 
 - [よくある質問 (FAQ)](faq.md)
 - [プライバシーポリシー](privacy.md)
+- [バージョン履歴](version-history.md)
+- [ロードマップ](roadmap.md)
 
 ## ヘルプが必要な場合
 

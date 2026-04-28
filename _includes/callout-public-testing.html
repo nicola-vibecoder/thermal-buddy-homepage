@@ -1,0 +1,11 @@
+{% assign on_jp = false %}
+{% if page.path contains 'jp/' %}
+  {% assign on_jp = true %}
+{% endif %}
+<div class="support-callout support-callout--notice" role="status">
+  {% if on_jp %}
+  <p class="support-callout__text">もうすぐテストバージョンを公開予定！</p>
+  {% else %}
+  <p class="support-callout__text">Will be available for public testing soon!</p>
+  {% endif %}
+</div>
