@@ -17,5 +17,12 @@ Thermal Buddy は、ハイカー・バックパッカー・トレイルランナ
 
 問題が発生した場合や、新機能の提案がある場合は、[GitHub リポジトリ](https://github.com/nicola-vibecoder/thermal-buddy/issues)で Issue を作成してください。
 
+## お問い合わせ
+
+ご不明な点などございましたら、お気軽にメールにてお問い合わせください。
+
+- **サポート:** [support@thermalbuddy.app](mailto:support@thermalbuddy.app)
+- **一般のお問い合わせ:** [inquiry@thermalbuddy.app](mailto:inquiry@thermalbuddy.app)
+
 ---
 {{ site.copyright }}

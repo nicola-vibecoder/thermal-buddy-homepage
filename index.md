@@ -17,5 +17,12 @@ Thermal Buddy is a native iOS app created by Eiji, a hiker, backpacker, and trai
 
 If you encounter any issues or have suggestions for new features, please open an issue on our [GitHub repository](https://github.com/nicola-vibecoder/thermal-buddy/issues).
 
+## Contact Us
+
+For any other questions, feel free to reach out:
+
+- **Support:** [support@thermalbuddy.app](mailto:support@thermalbuddy.app)
+- **General Inquiries:** [inquiry@thermalbuddy.app](mailto:inquiry@thermalbuddy.app)
+
 ---
 {{ site.copyright }}
