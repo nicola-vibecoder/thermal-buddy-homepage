@@ -153,12 +153,16 @@ precisionGap = max(0, 検索の最低気温 − ログの最低気温)
 
 **Logbook** は時系列のアーカイブです。キーワード・アクティビティ・日付で過去の山行を振り返るために使います。
 
-![Logbook Screen](../assets/images/faq/jp-logbook.png)
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="../assets/images/faq/jp-logbook.png" width="320" alt="Logbook Screen" style="border-radius: 8px; border: 1px solid #334155;">
+</div>
 
 **Search** はギアの提案エンジンです。これから挑む山行のコンディション（気温＋シーンタイプ）を指定すると、うまくいった過去のシーンを優先して表示します。「次に何を着るか」を決めるために使います。
 
-![Search Screen](../assets/images/faq/jp-search.png)
-![Search Results](../assets/images/faq/jp-search-result.png)
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="../assets/images/faq/jp-search.png" width="320" alt="Search Screen" style="border-radius: 8px; border: 1px solid #334155;">
+  <img src="../assets/images/faq/jp-search-result.png" width="320" alt="Search Result" style="border-radius: 8px; border: 1px solid #334155;">
+</div>
 
 ---
 
@@ -248,8 +252,11 @@ Settings では以下をカスタマイズできます：
 - **気温範囲** — 気温ホイールピッカーの最小・最大値
 - **アクセントカラー** — アプリ全体のハイライトカラー
 
-![カスタムアクティビティ](../assets/images/faq/jp-custom-activity.png)
-![カスタムアイコン](../assets/images/faq/jp-custom-icons.png)
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="../assets/images/faq/jp-settings-main.png" width="320" alt="設定画面" style="border-radius: 8px; border: 1px solid #334155;">
+  <img src="../assets/images/faq/jp-custom-activity.png" width="320" alt="カスタムアクティビティ" style="border-radius: 8px; border: 1px solid #334155;">
+  <img src="../assets/images/faq/jp-custom-icons.png" width="320" alt="カスタムアイコン" style="border-radius: 8px; border: 1px solid #334155;">
+</div>
 
 ---
 

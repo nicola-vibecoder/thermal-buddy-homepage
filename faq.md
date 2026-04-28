@@ -153,12 +153,16 @@ Lower score = higher ranking. Ties are resolved in this order: weighted risk →
 
 **Logbook** is a chronological archive. Use it to browse or search your history by keyword, activity, or date — for reviewing what happened on a past trip.
 
-![Logbook Screen](./assets/images/faq/en-logbook.png)
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="./assets/images/faq/en-logbook.png" width="320" alt="Logbook Screen" style="border-radius: 8px; border: 1px solid #334155;">
+</div>
 
 **Search** is a gear-recommendation engine. You describe future conditions (temperature + scene type) and it surfaces past scenes where your gear performed well — for planning what to wear next time.
 
-![Search Screen](./assets/images/faq/en-search.png)
-![Search Results](./assets/images/faq/en-search-result.png)
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="./assets/images/faq/en-search.png" width="320" alt="Search Screen" style="border-radius: 8px; border: 1px solid #334155;">
+  <img src="./assets/images/faq/en-search-result.png" width="320" alt="Search Result" style="border-radius: 8px; border: 1px solid #334155;">
+</div>
 
 ---
 
@@ -248,8 +252,11 @@ In the Settings area you can customize:
 - **Temperature Range** — the min/max range available on the temperature wheel picker
 - **Accent Theme** — the highlight colour used throughout the app
 
-![Custom Activity](./assets/images/faq/en-custom-activity.png)
-![Custom Icons](./assets/images/faq/en-custom-icons.png)
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="./assets/images/faq/en-settings-main.png" width="320" alt="Settings Main" style="border-radius: 8px; border: 1px solid #334155;">
+  <img src="./assets/images/faq/en-custom-activity.png" width="320" alt="Custom Activity" style="border-radius: 8px; border: 1px solid #334155;">
+  <img src="./assets/images/faq/en-custom-icons.png" width="320" alt="Custom Icons" style="border-radius: 8px; border: 1px solid #334155;">
+</div>
 
 ---
 
