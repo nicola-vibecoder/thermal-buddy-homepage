@@ -15,14 +15,54 @@ Thermal Buddy is a native iOS app created by Eiji, a hiker, backpacker, and trai
 
 ## Getting Help
 
-If you encounter any issues or have suggestions for new features, please open an issue on our [GitHub repository](https://github.com/nicola-vibecoder/thermal-buddy/issues).
+The best way to get help or suggest features is to **[open an issue on our GitHub repository](https://github.com/nicola-vibecoder/thermal-buddy/issues)**.
+
+Using GitHub Issues is the preferred method because:
+- **Transparency:** You can see if others have reported the same issue.
+- **Searchable:** Solutions become a public resource for the entire community.
+- **Efficiency:** It helps me track and prioritize improvements directly in the codebase.
 
 ## Contact Us
 
-For any other questions, feel free to reach out:
+If you have trouble using GitHub or have a private matter, use the buttons below to send an email. This method helps protect against automated spam.
 
-- **Support:** [support@thermalbuddy.app](mailto:support@thermalbuddy.app)
-- **General Inquiries:** [inquiry@thermalbuddy.app](mailto:inquiry@thermalbuddy.app)
+<style>
+.contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #24292e;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s ease;
+}
+.contact-button:hover {
+  background-color: #2f363d;
+}
+.contact-label {
+  display: block;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+</style>
+
+<script>
+function sendSecureEmail(encodedEmail) {
+  window.location.href = 'mailto:' + atob(encodedEmail);
+}
+</script>
+
+<div class="contact-label">Support (Technical Issues)</div>
+<button class="contact-button" onclick="sendSecureEmail('c3VwcG9ydEB0aGVybWFsYnVkZHkuYXBw')">Send Email to Support</button>
+
+<div class="contact-label">General Inquiries (Press/Business)</div>
+<button class="contact-button" onclick="sendSecureEmail('aW5xdWlyeUB0aGVybWFsYnVkZHkuYXBw')">Send General Inquiry</button>
 
 ---
 {{ site.copyright }}
