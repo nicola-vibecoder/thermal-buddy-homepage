@@ -3,6 +3,10 @@ layout: default
 title: ホーム
 ---
 
+<div class="support-page-banner">
+<img src="{{ '/assets/images/banner-light-grey.svg' | relative_url }}" alt="Thermal Buddy" width="1536" height="1024" style="width:100%;max-width:100%;height:auto;display:block;margin:0 0 1.25rem 0;border-radius:4px;" />
+</div>
+
 # Thermal Buddy サポートへようこそ
 
 Thermal Buddy は、ハイカー・バックパッカー・トレイルランナーでもある Eiji が、「実際のコンディションで何を着て快適だったか」を振り返れるように作ったネイティブ iOS アプリです。山行後に気温・シーン・着用ギア・体感を記録し、次回の山行で何を着るべきかを自分の履歴から判断できます。レイヤリングの失敗を減らし、快適性を安定させ、出発前の判断に自信を持てるのがメリットです。

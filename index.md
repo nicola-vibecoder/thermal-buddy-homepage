@@ -3,6 +3,10 @@ layout: default
 title: Home
 ---
 
+<div class="support-page-banner">
+<img src="{{ '/assets/images/banner-light-grey.svg' | relative_url }}" alt="Thermal Buddy" width="1536" height="1024" style="width:100%;max-width:100%;height:auto;display:block;margin:0 0 1.25rem 0;border-radius:4px;" />
+</div>
+
 # Welcome to Thermal Buddy Support
 
 Thermal Buddy is a native iOS app created by Eiji, a hiker, backpacker, and trail runner who wanted a better way to remember what gear actually worked in real conditions. After each outing, you record temperature, scene, gear, and how you felt, then use your own history to plan what to wear next time. The benefit is practical and personal: fewer layering mistakes, more consistent comfort, and more confidence before your next trip.
