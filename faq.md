@@ -40,6 +40,7 @@ title: FAQ
 - [Data & Sync](#data--sync)
   - [Where is my data stored?](#where-is-my-data-stored)
   - [Does the app support iCloud sync?](#does-the-app-support-icloud-sync)
+  - [How do I turn iCloud sync on or off?](#how-do-i-turn-icloud-sync-on-or-off)
   - [Can the developer see my personal logs?](#can-the-developer-see-my-personal-logs)
 - [Privacy & AI](#privacy--ai)
   - [Does Thermal Buddy use generative AI for my data?](#does-thermal-buddy-use-generative-ai-for-my-data)
@@ -314,6 +315,22 @@ Yes. If iCloud is enabled on your device, your data syncs through your private i
 
 ---
 
+### How do I turn iCloud sync on or off?
+
+iCloud sync is controlled from your iPhone's Settings app, not from within Thermal Buddy.
+
+**To turn it on or off:**
+
+1. Open the iPhone **Settings** app
+2. Tap your name at the top (Apple Account)
+3. Tap **iCloud**
+4. Tap **Apps Using iCloud** (you may need to tap **Show All**)
+5. Find **Thermal Buddy** and toggle it on or off
+
+When sync is off, your logs remain on the current device only and will not appear on other Apple devices signed into the same iCloud account.
+
+---
+
 ### Can the developer see my personal logs?
 
 No. Your user-generated data is not accessible to us.
@@ -334,8 +351,8 @@ No. Thermal Buddy does not use generative AI to process your personal data. All 
 
 Please verify:
 - You are signed in to iCloud on your device
+- Thermal Buddy is enabled in **Settings → [Your Name] → iCloud → Apps Using iCloud** (see [How do I turn iCloud sync on or off?](#how-do-i-turn-icloud-sync-on-or-off))
 - iCloud Drive is enabled
-- Thermal Buddy is allowed to use iCloud in iOS Settings → Apple Account → iCloud
 - A network connection is available
 
 If sync still does not work, please report the issue on GitHub.
