@@ -6,7 +6,7 @@ published: false
 
 {% include site-banner-lang.html %}
 
-# Beta Testing — TestFlight
+# Thermal Buddy iOS — Beta Testing — TestFlight
 
 <p class="page-meta">Thank you for helping make Thermal Buddy better.</p>
 
@@ -38,9 +38,11 @@ I'm looking forward to hearing what you think.
 
 ## Join the Beta on TestFlight
 
-<p class="cta-actions"><a href="https://testflight.apple.com/join/q2s2cH73" class="github-issue-button">Open in TestFlight</a></p>
+<p class="cta-actions"><a href="https://testflight.apple.com/join/q2s2cH73" class="github-issue-button" style="font-size:18px;padding:14px 30px;">Open in TestFlight</a></p>
 
-> **Note:** The TestFlight link will be active once Apple finishes reviewing the app. Check back soon.
+> **No charges during the beta.** Any Premium purchases made through TestFlight use Apple's sandbox environment — your payment method will never be billed.
+>
+> **Beta duration.** I'm planning to run the beta for a few weeks. When it ends, TestFlight will notify you automatically.
 
 ---
 

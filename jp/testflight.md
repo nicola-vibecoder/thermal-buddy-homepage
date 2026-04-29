@@ -6,7 +6,7 @@ published: false
 
 {% include site-banner-lang.html %}
 
-# ベータテスト — TestFlight
+# Thermal Buddy iOS — ベータテスト — TestFlight
 
 <p class="page-meta">Thermal Buddy をより良くするために、ご協力ありがとうございます。</p>
 
@@ -38,9 +38,11 @@ Thermal Buddy を作ったのは、そういう経験が積み重なったから
 
 ## TestFlight でベータに参加する
 
-<p class="cta-actions"><a href="https://testflight.apple.com/join/q2s2cH73" class="github-issue-button">TestFlight で開く</a></p>
+<p class="cta-actions"><a href="https://testflight.apple.com/join/q2s2cH73" class="github-issue-button" style="font-size:18px;padding:14px 30px;">TestFlight で開く</a></p>
 
-> **注意：** Apple のレビューが完了するとリンクが有効になります。しばらくお待ちください。
+> **ベータ期間中は課金されません。** TestFlight 経由でのPremium購入はAppleのサンドボックス環境で処理されるため、実際の支払いは一切発生しません。
+>
+> **ベータの期間について。** 数週間を予定しています。終了時はTestFlightアプリから自動的に通知が届くので、ご安心ください。
 
 ---
 
