@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Beta Testing (TestFlight)
-published: false
+published: true
 ---
 
 {% include site-banner-lang.html %}

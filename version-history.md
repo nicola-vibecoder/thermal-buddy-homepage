@@ -8,4 +8,6 @@ title: Version History
 
 # Version History
 
-Release notes will appear here as versions ship.
+## Version 1.0.0 — May 2, 2026
+
+Released on TestFlight for fellow hikers to test!
