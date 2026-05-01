@@ -111,6 +111,20 @@ If you want to remove only the sample data, delete those entries manually from t
 
 ---
 
+## Improvements already underway
+
+These are features we are actively working on for upcoming releases. If you run into any of these rough edges during testing, know that they are already on our radar.
+
+- **Temperature picker** — setting both values to the same temperature is not currently allowed, and pushing one side past the other causes an unexpected snap-back. Both are being fixed.
+- **Long press to type a temperature** — tapping the centre of the temperature wheel to open the keyboard will be changed to a long press, so accidental triggers while scrolling no longer happen.
+- **Gear suggestions across scenes** — gear entered in an earlier scene during the same logging session will appear as autofill suggestions in later scenes.
+- **Smarter gear name matching** — suggestions will match anywhere within an item name, not only from the start.
+- **Brand-based gear suggestions** — typing a brand name will surface gear from that brand in your history, before you even start typing the item name.
+
+See the full [Roadmap](roadmap.md) for everything we are planning.
+
+---
+
 ## Questions?
 
 Check the [Frequently Asked Questions (FAQ)](faq.md) — it covers how the app works in detail.
