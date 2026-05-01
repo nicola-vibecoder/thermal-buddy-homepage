@@ -117,7 +117,16 @@ See the full [Roadmap](roadmap.md) for everything we are planning.
 
 ## Join the Beta on TestFlight
 
+Follow these steps in order:
+
+1. **Install the TestFlight app** from the App Store if you haven't already. ([Get TestFlight](https://apps.apple.com/app/testflight/id899247664))
+2. **Tap the button below** (or tap it on your iPhone directly). Do not open the TestFlight app manually — tap the link first.
+3. TestFlight will open automatically and show the Thermal Buddy beta.
+4. Tap **Install** to download the app.
+
 <p class="cta-actions"><a href="https://testflight.apple.com/join/q2s2cH73" class="github-issue-button" style="font-size:18px;padding:14px 30px;">Open in TestFlight</a></p>
+
+> **If you see a "Ready to Test" screen with a "Redeem" or "Use Code" button**, you opened the TestFlight app directly instead of tapping the link above. Go back, and tap the button above — it will take you straight to the Thermal Buddy beta without needing a code.
 
 > **No charges during the beta.** Any Premium purchases made through TestFlight use Apple's sandbox environment — your payment method will never be billed.
 >

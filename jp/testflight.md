@@ -117,7 +117,16 @@ Thermal Buddy を作ったのは、そういう経験が積み重なったから
 
 ## TestFlight でベータに参加する
 
+以下の手順を順番に行ってください：
+
+1. **TestFlight アプリをインストール**します（まだの場合）。([TestFlight を入手する](https://apps.apple.com/jp/app/testflight/id899247664))
+2. **iPhoneで下のボタンをタップ**してください。TestFlight アプリを直接開くのではなく、必ずリンクから入ってください。
+3. TestFlight が自動的に起動し、Thermal Buddy のベータ画面が表示されます。
+4. **インストール**をタップしてアプリをダウンロードします。
+
 <p class="cta-actions"><a href="https://testflight.apple.com/join/q2s2cH73" class="github-issue-button" style="font-size:18px;padding:14px 30px;">TestFlight で開く</a></p>
+
+> **「テスト準備完了」という画面が表示された場合**、リンクをタップせずに TestFlight アプリを直接開いてしまっています。その画面は閉じて、上のボタンをもう一度タップしてください。コードの入力は不要です。
 
 > **ベータ期間中は課金されません。** TestFlight 経由でのPremium購入はAppleのサンドボックス環境で処理されるため、実際の支払いは一切発生しません。
 >
