@@ -36,19 +36,9 @@ I'm looking forward to hearing what you think.
 
 ---
 
-## Join the Beta on TestFlight
-
-<p class="cta-actions"><a href="https://testflight.apple.com/join/q2s2cH73" class="github-issue-button" style="font-size:18px;padding:14px 30px;">Open in TestFlight</a></p>
-
-> **No charges during the beta.** Any Premium purchases made through TestFlight use Apple's sandbox environment — your payment method will never be billed.
->
-> **Beta duration.** I'm planning to run the beta for a few weeks. When it ends, TestFlight will notify you automatically.
-
----
-
 ## What Feedback Would Help Most
 
-The two scenarios below are where I most want your honest reaction. Use them as your testing lens.
+Picture these two scenarios as you explore the app — no real trip needed. Just imagine them as you tap through.
 
 ### 1. Logging After an Outing
 
@@ -66,7 +56,7 @@ You're back at camp or at the trailhead. You want to record what you wore.
 
 ### 2. Planning Your Next Trip
 
-A few weeks later, you're preparing for another outing. You open Search and ask: *"What did I wear for a Sleep scene around 5–10 °C?"*
+Now imagine you're preparing for your next outing. You open Search and ask: *"What did I wear for a Sleep scene around 5–10 °C?"*
 
 Look at the results. Are they what you expected? Does seeing your own history help you decide what to pack?
 
@@ -122,6 +112,16 @@ These are features we are actively working on for upcoming releases. If you run 
 - **Brand-based gear suggestions** — typing a brand name will surface gear from that brand in your history, before you even start typing the item name.
 
 See the full [Roadmap](roadmap.md) for everything we are planning.
+
+---
+
+## Join the Beta on TestFlight
+
+<p class="cta-actions"><a href="https://testflight.apple.com/join/q2s2cH73" class="github-issue-button" style="font-size:18px;padding:14px 30px;">Open in TestFlight</a></p>
+
+> **No charges during the beta.** Any Premium purchases made through TestFlight use Apple's sandbox environment — your payment method will never be billed.
+>
+> **Beta duration.** I'm planning to run the beta for a few weeks. When it ends, TestFlight will notify you automatically.
 
 ---
 

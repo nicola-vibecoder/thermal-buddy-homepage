@@ -36,19 +36,9 @@ Thermal Buddy を作ったのは、そういう経験が積み重なったから
 
 ---
 
-## TestFlight でベータに参加する
-
-<p class="cta-actions"><a href="https://testflight.apple.com/join/q2s2cH73" class="github-issue-button" style="font-size:18px;padding:14px 30px;">TestFlight で開く</a></p>
-
-> **ベータ期間中は課金されません。** TestFlight 経由でのPremium購入はAppleのサンドボックス環境で処理されるため、実際の支払いは一切発生しません。
->
-> **ベータの期間について。** 数週間を予定しています。終了時はTestFlightアプリから自動的に通知が届くので、ご安心ください。
-
----
-
 ## 特に聞きたいフィードバック
 
-次の2つのシナリオを意識しながらテストしてみてください。
+こういうシナリオを想像しながら、進めてください。実際の山行を待たなくても試せます。
 
 ### 1. 山行後にログを記録する
 
@@ -66,7 +56,7 @@ Thermal Buddy を作ったのは、そういう経験が積み重なったから
 
 ### 2. 次の山行を計画する
 
-数週間後、次のルートの準備をしている場面です。Search を開いて「5〜10℃の Sleep シーンで何を着ていたか？」と調べてみてください。
+次のルートの準備をしている場面を想像してください。Search を開いて「5〜10℃の Sleep シーンで何を着ていたか？」と調べてみてください。
 
 結果を見て、期待通りでしたか？自分の履歴が装備選びの参考になりましたか？
 
@@ -122,6 +112,16 @@ Thermal Buddy を作ったのは、そういう経験が積み重なったから
 - **ブランド名からギアを候補表示** — ブランド名を入力すると、そのブランドの過去のギアが候補として表示されます。
 
 計画中の改善の全体像は[ロードマップ](roadmap.md)をご覧ください。
+
+---
+
+## TestFlight でベータに参加する
+
+<p class="cta-actions"><a href="https://testflight.apple.com/join/q2s2cH73" class="github-issue-button" style="font-size:18px;padding:14px 30px;">TestFlight で開く</a></p>
+
+> **ベータ期間中は課金されません。** TestFlight 経由でのPremium購入はAppleのサンドボックス環境で処理されるため、実際の支払いは一切発生しません。
+>
+> **ベータの期間について。** 数週間を予定しています。終了時はTestFlightアプリから自動的に通知が届くので、ご安心ください。
 
 ---
 
