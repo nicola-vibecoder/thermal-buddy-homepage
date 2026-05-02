@@ -83,4 +83,18 @@ Ideas we have considered but decided not to pursue for now. We may revisit any o
 
 ---
 
+## Long-term dreams
+
+These are things we genuinely hope to do someday, but have no timeline for. Consider them aspirations rather than plans.
+
+### Android version
+
+Thermal Buddy is iOS-only today. Building a great Android version is a real goal, but it requires rebuilding the app from the ground up — it is a significant undertaking and not something we can promise on any particular schedule.
+
+### Spanish language support
+
+We would love to make Thermal Buddy accessible to Spanish-speaking communities. If you are a native Spanish speaker who would be interested in helping with localisation, please do reach out via [GitHub Issues](https://github.com/nicola-vibecoder/thermal-buddy/issues).
+
+---
+
 {{ site.copyright }}
