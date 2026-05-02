@@ -101,18 +101,18 @@ If you want to remove only the sample data, delete those entries manually from t
 
 ---
 
-## Improvements already underway
+## What's new in Build 5
 
-These are features we are actively working on for upcoming releases. If you run into any of these rough edges during testing, know that they are already on our radar.
+All of the improvements that were listed as "coming soon" in the previous build are now live.
 
-- **Temperature picker** — setting both values to the same temperature is not currently allowed, and pushing one side past the other causes an unexpected snap-back. Both are being fixed.
-- **Long press to type a temperature** — tapping the centre of the temperature wheel to open the keyboard will be changed to a long press, so accidental triggers while scrolling no longer happen.
-- **Gear suggestions across scenes** — gear entered in an earlier scene during the same logging session will appear as autofill suggestions in later scenes.
-- **Smarter gear name matching** — suggestions will match anywhere within an item name, not only from the start.
-- **Brand-based gear suggestions** — typing a brand name will surface gear from that brand in your history, before you even start typing the item name.
-- **Edit gear items in place** — correcting a gear item no longer requires deleting and re-adding it. You will be able to tap any gear item to update its name, brand, or category, both during log creation and later in the logbook.
+- ✅ **Temperature picker** — you can now set both values to the same temperature, and pushing one side past the other moves the opposite side with it instead of snapping back.
+- ✅ **Long press to type a temperature** — the centre of the wheel now requires a long press to open the keyboard, eliminating accidental triggers while scrolling.
+- ✅ **Gear suggestions across scenes** — gear entered in an earlier scene during the same session now appears as an autofill suggestion in later scenes.
+- ✅ **Smarter gear name matching** — suggestions now match anywhere within an item name, not only from the start. Prefix matches still appear first.
+- ✅ **Brand-based gear suggestions** — typing a brand name surfaces gear from that brand in your history, before you start typing the item name.
+- ✅ **Edit gear items in place** — tap any gear item to update its name, brand, or category directly. Works both during log creation and later in the Logbook.
 
-See the full [Roadmap](roadmap.md) for everything we are planning.
+See the full [Roadmap](roadmap.md) for what is coming next.
 
 ---
 
