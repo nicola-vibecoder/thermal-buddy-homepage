@@ -2,10 +2,14 @@
 {% if page.path contains 'jp/' %}
   {% assign on_jp = true %}
 {% endif %}
-<div class="support-callout support-callout--notice" role="status">
+<div class="support-callout support-callout--live" role="status">
   {% if on_jp %}
-  <p class="support-callout__text">もうすぐテストバージョンを公開予定！</p>
+  <p class="support-callout__text">
+    🎉 <a href="/jp/testflight" class="support-callout__link">TestFlight でベータ版を公開中</a> — 今すぐ参加できます
+  </p>
   {% else %}
-  <p class="support-callout__text">Will be available for public testing soon!</p>
+  <p class="support-callout__text">
+    🎉 <a href="/testflight" class="support-callout__link">Beta now available on TestFlight</a> — join today
+  </p>
   {% endif %}
 </div>
