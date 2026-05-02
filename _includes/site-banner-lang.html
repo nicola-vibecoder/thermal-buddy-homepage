@@ -55,9 +55,9 @@
     <img src="{{ '/assets/images/banner-dark-grey.svg' | relative_url }}" alt="Thermal Buddy" width="1536" height="1024" loading="eager" decoding="async" />
   </div>
   <nav class="lang-switch" aria-label="{% if on_jp %}言語選択{% else %}Language{% endif %}">
-    <a href="{{ en_path | relative_url }}" class="lang-switch__link" {% unless on_jp %}aria-current="page"{% endunless %}>English</a>
+    <a href="{{ en_path | relative_url }}" class="lang-switch__link" {% unless on_jp %}aria-current="page"{% endunless %} onclick="localStorage.setItem('tb-lang','en')">English</a>
     <span class="lang-switch__sep" aria-hidden="true">·</span>
-    <a href="{{ jp_path | relative_url }}" class="lang-switch__link" {% if on_jp %}aria-current="page"{% endif %}>日本語</a>
+    <a href="{{ jp_path | relative_url }}" class="lang-switch__link" {% if on_jp %}aria-current="page"{% endif %} onclick="localStorage.setItem('tb-lang','ja')">日本語</a>
   </nav>
   {% if show_home_link %}
   <nav class="home-link-nav" aria-label="{% if on_jp %}サイト内{% else %}Site{% endif %}">

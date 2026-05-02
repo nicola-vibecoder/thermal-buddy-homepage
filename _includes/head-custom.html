@@ -1,3 +1,34 @@
+<script>
+(function () {
+  var PREF_KEY = 'tb-lang';
+  var stored = localStorage.getItem(PREF_KEY);
+  var path = location.pathname;
+  var onJp = path.indexOf('/jp') === 0;
+
+  function redirectTo(newPath) {
+    location.replace(newPath);
+  }
+
+  if (stored) {
+    if (stored === 'ja' && !onJp) {
+      redirectTo('/jp' + (path === '/' ? '/' : path));
+    } else if (stored === 'en' && onJp) {
+      redirectTo(path.replace(/^\/jp/, '') || '/');
+    }
+    return;
+  }
+
+  // First visit: auto-detect
+  var lang = (navigator.language || '').toLowerCase();
+  var isJa = lang === 'ja' || lang.startsWith('ja-');
+  localStorage.setItem(PREF_KEY, isJa ? 'ja' : 'en');
+  if (isJa && !onJp) {
+    redirectTo('/jp' + (path === '/' ? '/' : path));
+  } else if (!isJa && onJp) {
+    redirectTo(path.replace(/^\/jp/, '') || '/');
+  }
+})();
+</script>
 <style>
   /* Slightly larger body copy (~+1pt vs default 1rem) */
   body {
