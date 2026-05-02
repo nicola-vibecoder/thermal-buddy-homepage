@@ -39,6 +39,10 @@ Typing part of a gear item name currently only matches from the beginning — so
 
 Once you type a brand name, Thermal Buddy will start suggesting gear items from that brand that appear in your log history — even before you have begun typing the item name. Less retyping, faster logging.
 
+### Fix typos in gear without deleting and starting over
+
+Added a gear item and noticed a typo in the name, or picked the wrong category? Right now the only way to fix it is to delete the item and add it again from scratch — frustrating when you just want to correct one letter. We are adding in-place editing so you can tap any gear item, either while you are still creating the log or later in your logbook, and adjust the name, brand, or category without losing anything.
+
 ---
 
 ## Thinking about — your feedback welcome

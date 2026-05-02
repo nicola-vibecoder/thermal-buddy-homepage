@@ -110,6 +110,7 @@ These are features we are actively working on for upcoming releases. If you run 
 - **Gear suggestions across scenes** — gear entered in an earlier scene during the same logging session will appear as autofill suggestions in later scenes.
 - **Smarter gear name matching** — suggestions will match anywhere within an item name, not only from the start.
 - **Brand-based gear suggestions** — typing a brand name will surface gear from that brand in your history, before you even start typing the item name.
+- **Edit gear items in place** — correcting a gear item no longer requires deleting and re-adding it. You will be able to tap any gear item to update its name, brand, or category, both during log creation and later in the logbook.
 
 See the full [Roadmap](roadmap.md) for everything we are planning.
 
