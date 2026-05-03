@@ -2,20 +2,12 @@
 layout: default
 title: ベータテスト（TestFlight）
 published: true
+hide_site_banner: true
 ---
 
 <img src="{{ '/assets/images/hero-banner.jpg' | relative_url }}" alt="Because nature isn't always accommodating" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
 
-<div class="support-site-header">
-  <nav class="lang-switch" aria-label="言語選択">
-    <a href="{{ '/testflight.html' | relative_url }}" class="lang-switch__link">English</a>
-    <span class="lang-switch__sep" aria-hidden="true">·</span>
-    <a href="{{ '/jp/testflight.html' | relative_url }}" class="lang-switch__link" aria-current="page">日本語</a>
-  </nav>
-  <nav class="home-link-nav" aria-label="サイト内">
-    <a href="{{ '/jp/' | relative_url }}" class="home-link">ホーム</a>
-  </nav>
-</div>
+{% include site-banner-lang.html %}
 
 # Thermal Buddy iOS — ベータテスト — TestFlight
 
