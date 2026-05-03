@@ -103,7 +103,7 @@ If you want to remove only the sample data, delete those entries manually from t
 
 ## What's new in Build 6
 
-- ✅ **Confirmation before discarding edits** — closing a trip log or a scene with unsaved changes now prompts you first. You can save (including from the scene sheet), keep editing, or discard deliberately, so careful entries are less likely to vanish by accident.
+- ✅ **Confirmation before discarding edits** — If you try to close a scene while there are unsaved changes, the app now asks what you want to do first. You can save your work or discard on purpose. The goal is fewer accidental losses of carefully entered details from a mistaken tap.
 
 ---
 

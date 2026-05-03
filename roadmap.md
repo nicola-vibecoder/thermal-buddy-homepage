@@ -19,7 +19,7 @@ If something on this page matters to you, or if something important is missing e
 
 ### ✅ Confirmation before discarding edits
 
-If you try to close a log or a scene while there are unsaved changes, the app now asks what you want to do first. You can save your work (including from the scene editor), keep editing, or discard on purpose. The goal is fewer accidental losses of carefully entered details from a stray swipe or mistaken tap.
+If you try to close a scene while there are unsaved changes, the app now asks what you want to do first. You can save your work or discard on purpose. The goal is fewer accidental losses of carefully entered details from a mistaken tap.
 
 ---
 
