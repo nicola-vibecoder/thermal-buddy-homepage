@@ -69,6 +69,18 @@ Anything that makes you think *"this would be so much better if…"* — that's 
 
 ---
 
+## Tips Before You Start
+
+### Customise your activities and gear categories first
+
+Before logging your first trip, it is worth spending a minute in **Settings** to tailor the app to how you actually think about your gear. You can rename, hide, reorder, or add custom activities and gear categories. For activities you can also change the icon. Getting this right upfront means every log you write after that will feel natural and quick.
+
+### Tap a suggestion to fill in brand and category automatically
+
+When adding a gear item, start typing in the item name field. If you have logged that piece of gear before, it will appear as a suggestion. Tap it and the brand and category fill in automatically — no need to type them at all.
+
+---
+
 ## Developer Menu (Testing Tools)
 
 The app includes a hidden set of developer tools to help you populate it with sample data quickly. This is intended for testers.
