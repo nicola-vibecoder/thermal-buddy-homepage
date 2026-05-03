@@ -6,6 +6,17 @@ published: true
 
 <img src="{{ '/assets/images/hero-banner.jpg' | relative_url }}" alt="Because nature isn't always accommodating" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
 
+<div class="support-site-header">
+  <nav class="lang-switch" aria-label="Language">
+    <a href="{{ '/testflight.html' | relative_url }}" class="lang-switch__link" aria-current="page">English</a>
+    <span class="lang-switch__sep" aria-hidden="true">·</span>
+    <a href="{{ '/jp/testflight.html' | relative_url }}" class="lang-switch__link">日本語</a>
+  </nav>
+  <nav class="home-link-nav" aria-label="Site">
+    <a href="{{ '/' | relative_url }}" class="home-link">Home</a>
+  </nav>
+</div>
+
 # Thermal Buddy iOS — Beta Testing — TestFlight
 
 <p class="page-meta">Thank you for helping make Thermal Buddy better.</p>
