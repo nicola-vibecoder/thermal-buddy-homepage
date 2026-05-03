@@ -101,6 +101,12 @@ If you want to remove only the sample data, delete those entries manually from t
 
 ---
 
+## What's new in Build 6
+
+- ✅ **Confirmation before discarding edits** — closing a trip log or a scene with unsaved changes now prompts you first. You can save (including from the scene sheet), keep editing, or discard deliberately, so careful entries are less likely to vanish by accident.
+
+---
+
 ## What's new in Build 5
 
 All of the improvements that were listed as "coming soon" in the previous build are now live.
