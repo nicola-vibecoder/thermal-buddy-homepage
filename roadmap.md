@@ -19,7 +19,7 @@ If something on this page matters to you, or if something important is missing e
 
 ### Multi-day trips
 
-We want to add a way to group logs from a multi-day outing together. We are still figuring out the right approach — the goal is to keep things completely seamless for day-hikers who don't need it.
+We want to add a way to group logs from a multi-day outing together. We are still figuring out the right approach — the goal is to keep things seamless for day-hikers who don't need it.
 
 ---
 
