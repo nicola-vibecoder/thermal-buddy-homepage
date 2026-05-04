@@ -4,7 +4,6 @@ title: ホーム
 ---
 
 {% include site-banner-lang.html %}
-{% include callout-public-testing.html %}
 
 # Thermal Buddy サポートへようこそ
 

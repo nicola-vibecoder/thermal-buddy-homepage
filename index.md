@@ -4,7 +4,6 @@ title: Home
 ---
 
 {% include site-banner-lang.html %}
-{% include callout-public-testing.html %}
 
 # Welcome to Thermal Buddy Support
 
