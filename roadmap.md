@@ -17,55 +17,25 @@ If something on this page matters to you, or if something important is missing e
 
 ## Shipped in Build 7
 
-### ✅ My Gear
-
-A dedicated screen listing all the gear you have ever logged, organised by category. You can search, sort by category, brand, or name, and tap any item to see its full log history — every trip it has appeared in, with a direct link to each log's detail view.
-
-You can also add gear to your catalog before a trip, without needing to create a log first. Items that have not yet appeared in any log are marked clearly so you know they are catalog-only entries.
-
-Every stat tile on the Home screen is now tappable: Outings takes you straight to the Logbook, Just Right % shows a filtered view of your well-matched logs, and My Gear opens the new gear list.
-
-### ✅ Duplicate a log
-
-You can now duplicate any existing log from the Logbook. Swipe left on a card or open a log and use the toolbar button to create a copy, which opens immediately in edit mode ready for you to adjust. Free plan limits apply.
+- ✅ My Gear
+- ✅ Duplicate a log
 
 ---
 
 ## Shipped in Build 6
 
-### ✅ Confirmation before discarding edits
-
-If you try to close a scene while there are unsaved changes, the app now asks what you want to do first. You can save your work or discard on purpose. The goal is fewer accidental losses of carefully entered details from a mistaken tap.
+- ✅ Confirmation before discarding edits
 
 ---
 
 ## Shipped in Build 5
 
-Everything that was listed as "coming soon" in the previous build has now landed. Here is what is new.
-
-### ✅ Temperature picker improvements
-
-You can now set the minimum and maximum temperature to the same value, and pushing one side past the other moves the opposite side along with it instead of snapping back. The picker behaves the way you would naturally expect.
-
-### ✅ Long press to type a temperature
-
-The centre of the temperature wheel now requires a deliberate long press to open the keyboard for direct number entry. Accidental triggers while scrolling no longer happen. A small on-screen hint lets you know the shortcut is there.
-
-### ✅ Gear suggestions across your whole session
-
-When logging a trip with multiple scenes, gear you entered in an earlier scene now appears as an autofill suggestion in later scenes within the same session. Your entire in-progress log counts as the suggestion source.
-
-### ✅ Smarter gear name suggestions
-
-Suggestions now match anywhere within a gear item name — so typing "Tights" will surface "Light Alpha Tights" from your history. Prefix matches still appear first.
-
-### ✅ Suggestions based on the brand you type
-
-Once you type a brand name, Thermal Buddy surfaces gear items from that brand in your log history, before you have even started typing the item name.
-
-### ✅ Fix typos in gear without deleting and starting over
-
-You can now tap any gear item — both while creating a log and later in the Logbook — and edit its name, brand, or category in place. No more deleting and re-adding just to fix one letter.
+- ✅ Temperature picker improvements
+- ✅ Long press to type a temperature
+- ✅ Gear suggestions across your whole session
+- ✅ Smarter gear name suggestions
+- ✅ Suggestions based on the brand you type
+- ✅ Fix typos in gear without deleting and starting over
 
 ---
 
