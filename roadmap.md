@@ -15,30 +15,6 @@ If something on this page matters to you, or if something important is missing e
 
 ---
 
-## Shipped in Build 7
-
-- ✅ My Gear
-- ✅ Duplicate a log
-
----
-
-## Shipped in Build 6
-
-- ✅ Confirmation before discarding edits
-
----
-
-## Shipped in Build 5
-
-- ✅ Temperature picker improvements
-- ✅ Long press to type a temperature
-- ✅ Gear suggestions across your whole session
-- ✅ Smarter gear name suggestions
-- ✅ Suggestions based on the brand you type
-- ✅ Fix typos in gear without deleting and starting over
-
----
-
 ## Coming in upcoming releases
 
 We are currently heads-down on stability and polish. No major features are in active development right now. Watch this space.
