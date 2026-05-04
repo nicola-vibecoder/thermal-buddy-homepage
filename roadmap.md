@@ -17,7 +17,9 @@ If something on this page matters to you, or if something important is missing e
 
 ## Coming in upcoming releases
 
-We are currently heads-down on stability and polish. No major features are in active development right now. Watch this space.
+### Multi-day trips
+
+We want to add a way to group logs from a multi-day outing together. We are still figuring out the right approach — the goal is to keep things completely seamless for day-hikers who don't need it.
 
 ---
 
