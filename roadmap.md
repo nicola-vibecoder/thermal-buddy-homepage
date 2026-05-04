@@ -15,6 +15,22 @@ If something on this page matters to you, or if something important is missing e
 
 ---
 
+## Shipped in Build 7
+
+### ✅ My Gear
+
+A dedicated screen listing all the gear you have ever logged, organised by category. You can search, sort by category, brand, or name, and tap any item to see its full log history — every trip it has appeared in, with a direct link to each log's detail view.
+
+You can also add gear to your catalog before a trip, without needing to create a log first. Items that have not yet appeared in any log are marked clearly so you know they are catalog-only entries.
+
+Every stat tile on the Home screen is now tappable: Outings takes you straight to the Logbook, Just Right % shows a filtered view of your well-matched logs, and My Gear opens the new gear list.
+
+### ✅ Duplicate a log
+
+You can now duplicate any existing log from the Logbook. Swipe left on a card or open a log and use the toolbar button to create a copy, which opens immediately in edit mode ready for you to adjust. Free plan limits apply.
+
+---
+
 ## Shipped in Build 6
 
 ### ✅ Confirmation before discarding edits
@@ -72,10 +88,6 @@ A small free-text notes field attached to each piece of gear — for details lik
 ### Choose the order of your scene types
 
 Active, Rest, Sleep, and Transit always appear in the same fixed order across the app. A future option could let you rearrange them so the scenes you use most often appear first.
-
-### My Gear — a quick view of everything you have logged
-
-A dedicated screen listing all the gear that has ever appeared in your logs, organised by category, so you can get a quick overview of your kit without opening individual trip records.
 
 ### Adjust how cautious Search is about cold
 

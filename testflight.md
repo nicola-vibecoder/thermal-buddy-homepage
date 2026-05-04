@@ -116,6 +116,15 @@ If you want to remove only the sample data, delete those entries manually from t
 
 ---
 
+## What's new in Build 7
+
+- ✅ **My Gear** — A dedicated screen listing all your logged gear by category. Search, sort by category, brand, or name, and tap any item to see its full log history. You can also add gear to your catalog before a trip, without creating a log first. Items not yet in any log are marked "Not in any log." Every stat tile on the Home screen is now tappable.
+- ✅ **Duplicate a log** — Swipe left on any log card or use the toolbar button in the detail view to create a copy, which opens immediately in edit mode. Free plan limits apply.
+
+See the full [Roadmap](roadmap.md) for what is coming next.
+
+---
+
 ## What's new in Build 6
 
 - ✅ **Confirmation before discarding edits** — If you try to close a scene while there are unsaved changes, the app now asks what you want to do first. You can save your work or discard on purpose. The goal is fewer accidental losses of carefully entered details from a mistaken tap.
