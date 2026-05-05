@@ -3,12 +3,12 @@
   {% assign on_jp = true %}
 {% endif %}
 
-<div class="sidebar-resources" style="margin-top: 1.5rem;">
+<div class="sidebar-resources">
   <p class="view">
-    <strong style="display: block; margin-bottom: 0.25rem; font-size: 0.9rem; color: #444;">{% if on_jp %}サポートリソース{% else %}Support Resources{% endif %}</strong>
-    <a href="{% if on_jp %}{{ '/jp/faq.html' | relative_url }}{% else %}{{ '/faq.html' | relative_url }}{% endif %}">{% if on_jp %}よくある質問 (FAQ){% else %}FAQ{% endif %}</a><br>
-    <a href="{% if on_jp %}{{ '/jp/roadmap.html' | relative_url }}{% else %}{{ '/roadmap.html' | relative_url }}{% endif %}">{% if on_jp %}ロードマップ{% else %}Roadmap{% endif %}</a><br>
-    <a href="{% if on_jp %}{{ '/jp/version-history.html' | relative_url }}{% else %}{{ '/version-history.html' | relative_url }}{% endif %}">{% if on_jp %}バージョン履歴{% else %}Version History{% endif %}</a><br>
+    <strong>{% if on_jp %}サポートリソース{% else %}Support Resources{% endif %}</strong>
+    <a href="{% if on_jp %}{{ '/jp/faq.html' | relative_url }}{% else %}{{ '/faq.html' | relative_url }}{% endif %}">{% if on_jp %}よくある質問 (FAQ){% else %}FAQ{% endif %}</a>
+    <a href="{% if on_jp %}{{ '/jp/roadmap.html' | relative_url }}{% else %}{{ '/roadmap.html' | relative_url }}{% endif %}">{% if on_jp %}ロードマップ{% else %}Roadmap{% endif %}</a>
+    <a href="{% if on_jp %}{{ '/jp/version-history.html' | relative_url }}{% else %}{{ '/version-history.html' | relative_url }}{% endif %}">{% if on_jp %}バージョン履歴{% else %}Version History{% endif %}</a>
     <a href="{% if on_jp %}{{ '/jp/privacy.html' | relative_url }}{% else %}{{ '/privacy.html' | relative_url }}{% endif %}">{% if on_jp %}プライバシーポリシー{% else %}Privacy Policy{% endif %}</a>
   </p>
 </div>
