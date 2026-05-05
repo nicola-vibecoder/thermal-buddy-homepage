@@ -76,9 +76,4 @@
     <span class="lang-switch__sep" aria-hidden="true">·</span>
     <a href="{{ jp_path | relative_url }}" class="lang-switch__link" {% if on_jp %}aria-current="page"{% endif %} onclick="localStorage.setItem('tb-lang','ja')">日本語</a>
   </nav>
-  {% if show_home_link %}
-  <nav class="home-link-nav" aria-label="{% if on_jp %}サイト内{% else %}Site{% endif %}">
-    <a href="{% if on_jp %}{{ '/jp/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" class="home-link">{% if on_jp %}ホーム{% else %}Home{% endif %}</a>
-  </nav>
-  {% endif %}
 </div>
