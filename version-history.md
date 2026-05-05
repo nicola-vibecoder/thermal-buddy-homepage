@@ -4,7 +4,6 @@ title: Version History
 ---
 
 {% include site-banner-lang.html %}
-{% include callout-public-testing.html %}
 
 # Version History
 
