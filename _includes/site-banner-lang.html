@@ -52,9 +52,11 @@
 
 <div class="support-site-header">
   {% unless page.hide_site_banner %}
-  <div class="support-page-banner">
+  <div class="support-page-banner {% if page.path == 'index.md' or page.path == 'jp/index.md' %}rotating-banner{% endif %}">
     {% if page.path == 'index.md' or page.path == 'jp/index.md' %}
-      <img src="{{ '/assets/images/hero-banner.jpg' | relative_url }}" alt="Thermal Buddy" width="1536" height="1024" loading="eager" decoding="async" />
+      <img src="{{ '/assets/images/hero-banner.jpg' | relative_url }}" alt="Thermal Buddy 1" width="1536" height="1024" loading="eager" decoding="async" />
+      <img src="{{ '/assets/images/hero-banner-2.jpg' | relative_url }}" alt="Thermal Buddy 2" width="1536" height="1024" loading="lazy" decoding="async" />
+      <img src="{{ '/assets/images/hero-banner-3.jpg' | relative_url }}" alt="Thermal Buddy 3" width="1536" height="1024" loading="lazy" decoding="async" />
     {% else %}
       <img src="{{ '/assets/images/banner-dark-grey.svg' | relative_url }}" alt="Thermal Buddy" width="1536" height="1024" loading="eager" decoding="async" />
     {% endif %}

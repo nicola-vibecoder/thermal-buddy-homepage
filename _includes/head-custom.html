@@ -60,12 +60,45 @@
   .support-site-header {
     margin-bottom: 1.25rem;
   }
-  .support-page-banner img {
+  .support-page-banner {
+    position: relative;
     width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #020617; /* Matches app background */
+  }
+  /* Aspect ratio container for rotating images */
+  .rotating-banner {
+    aspect-ratio: 16 / 10;
+  }
+  .rotating-banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    animation: bannerFade 15s infinite;
+  }
+  /* Animation Delays (5s per image) */
+  .rotating-banner img:nth-child(1) { animation-delay: 0s; }
+  .rotating-banner img:nth-child(2) { animation-delay: 5s; }
+  .rotating-banner img:nth-child(3) { animation-delay: 10s; }
+
+  @keyframes bannerFade {
+    0%   { opacity: 0; }
+    5%   { opacity: 1; }
+    33%  { opacity: 1; }
+    38%  { opacity: 0; }
+    100% { opacity: 0; }
+  }
+
+  .support-page-banner img {
+    display: block;
     max-width: 100%;
     height: auto;
-    display: block;
-    border-radius: 4px;
   }
   .lang-switch {
     font-size: 0.95rem;
