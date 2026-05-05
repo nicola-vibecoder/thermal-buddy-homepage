@@ -9,10 +9,6 @@ title: Home
 
 Thermal Buddy is a native iOS app created by Eiji, a hiker, backpacker, and trail runner who wanted a better way to remember what gear actually worked in real conditions. After each outing, you record temperature, scene, gear, and how you felt, then use your own history to plan what to wear next time. The benefit is practical and personal: fewer layering mistakes, more consistent comfort, and more confidence before your next trip.
 
-<div class="app-store-cta">
-  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button">Download on the App Store</a>
-</div>
-
 ## Support Resources
 
 - [Frequently Asked Questions (FAQ)](faq.md)
