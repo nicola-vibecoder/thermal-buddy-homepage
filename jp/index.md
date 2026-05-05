@@ -9,6 +9,10 @@ title: ホーム
 
 Thermal Buddy は、ハイカー・バックパッカー・トレイルランナーでもある Eiji が、「実際のコンディションで何を着て快適だったか」を振り返れるように作ったネイティブ iOS アプリです。山行後に気温・シーン・着用ギア・体感を記録し、次回の山行で何を着るべきかを自分の履歴から判断できます。レイヤリングの失敗を減らし、快適性を安定させ、出発前の判断に自信を持てるのがメリットです。
 
+<div class="app-store-cta">
+  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button">App Store でダウンロード</a>
+</div>
+
 ## サポートリソース
 
 - [よくある質問 (FAQ)](faq.md)

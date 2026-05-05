@@ -53,7 +53,11 @@
 <div class="support-site-header">
   {% unless page.hide_site_banner %}
   <div class="support-page-banner">
-    <img src="{{ '/assets/images/banner-dark-grey.svg' | relative_url }}" alt="Thermal Buddy" width="1536" height="1024" loading="eager" decoding="async" />
+    {% if page.path == 'index.md' or page.path == 'jp/index.md' %}
+      <img src="{{ '/assets/images/hero-banner.jpg' | relative_url }}" alt="Thermal Buddy" width="1536" height="1024" loading="eager" decoding="async" />
+    {% else %}
+      <img src="{{ '/assets/images/banner-dark-grey.svg' | relative_url }}" alt="Thermal Buddy" width="1536" height="1024" loading="eager" decoding="async" />
+    {% endif %}
   </div>
   {% endunless %}
   <nav class="lang-switch" aria-label="{% if on_jp %}言語選択{% else %}Language{% endif %}">
