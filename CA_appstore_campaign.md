@@ -20,7 +20,7 @@ To celebrate Thermal Buddy launch, we're offering 30% off your first year of The
 
 Get your first year for just **$8.99 CAD** *(normally $12.99)* and start dialing in your layering for your shoulder season adventures.
 
-### How it works
+### How Thermal Buddy works
 
 - **Record**: After your run or hike, log the temperature, wear + gear, and your actual skin sensation.
 - **Build**: Create your personal database of what worked and what didn't in real conditions.
