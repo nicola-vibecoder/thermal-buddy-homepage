@@ -82,12 +82,12 @@
     height: 100%;
     object-fit: contain; /* Changed from cover to ensure text isn't cut off */
     opacity: 0;
-    animation: bannerFade 4.5s infinite;
+    animation: bannerFade 9s infinite;
   }
-  /* Animation Delays (1.5s per image) */
+  /* Animation Delays (3s per image) */
   .rotating-banner img:nth-child(1) { animation-delay: 0s; }
-  .rotating-banner img:nth-child(2) { animation-delay: 1.5s; }
-  .rotating-banner img:nth-child(3) { animation-delay: 3s; }
+  .rotating-banner img:nth-child(2) { animation-delay: 3s; }
+  .rotating-banner img:nth-child(3) { animation-delay: 6s; }
 
   @keyframes bannerFade {
     0%   { opacity: 0; }
