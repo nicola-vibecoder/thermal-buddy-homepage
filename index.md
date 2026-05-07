@@ -27,20 +27,22 @@ move_nav_to_bottom: true
   user-select: none;
 }
 .carousel-track-wrapper {
-  overflow: hidden;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
   border-radius: 16px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
+.carousel-track-wrapper::-webkit-scrollbar { display: none; }
 .carousel-track {
   display: flex;
-  transition: transform 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  will-change: transform;
-  cursor: grab;
 }
-.carousel-track:active { cursor: grabbing; }
 .carousel-slide {
   min-width: 100%;
   width: 100%;
   display: block;
+  scroll-snap-align: start;
   border-radius: 16px;
   pointer-events: none;
 }
@@ -69,7 +71,7 @@ move_nav_to_bottom: true
 </style>
 
 <div class="campaign-carousel">
-  <div class="carousel-track-wrapper">
+  <div class="carousel-track-wrapper" id="carouselWrapper">
     <div class="carousel-track" id="carouselTrack">
       <img src="./assets/images/campaign-1.png" alt="Experience — No More Guesswork" class="carousel-slide">
       <img src="./assets/images/campaign-2.png" alt="Record — Every Skin Sensation" class="carousel-slide">
@@ -85,18 +87,21 @@ move_nav_to_bottom: true
 
 <script>
 (function () {
-  var track = document.getElementById('carouselTrack');
+  var wrapper = document.getElementById('carouselWrapper');
   var dotEls = document.querySelectorAll('#carouselDots .carousel-dot');
   var current = 0;
   var total = 3;
-  var startX = 0;
-  var dragging = false;
   var timer;
+  var scrollSettleTimer;
+
+  function updateDots() {
+    dotEls.forEach(function (d, i) { d.classList.toggle('active', i === current); });
+  }
 
   function go(idx) {
     current = ((idx % total) + total) % total;
-    track.style.transform = 'translateX(-' + (current * 100) + '%)';
-    dotEls.forEach(function (d, i) { d.classList.toggle('active', i === current); });
+    wrapper.scrollTo({ left: current * wrapper.offsetWidth, behavior: 'smooth' });
+    updateDots();
   }
 
   function resetTimer() {
@@ -108,22 +113,18 @@ move_nav_to_bottom: true
     go: function (idx) { go(idx); resetTimer(); }
   };
 
-  track.addEventListener('touchstart', function (e) { startX = e.touches[0].clientX; dragging = true; }, { passive: true });
-  track.addEventListener('touchend', function (e) {
-    if (!dragging) return;
-    var diff = startX - e.changedTouches[0].clientX;
-    if (Math.abs(diff) > 40) { go(diff > 0 ? current + 1 : current - 1); resetTimer(); }
-    dragging = false;
+  // Sync dots when user swipes natively
+  wrapper.addEventListener('scroll', function () {
+    clearTimeout(scrollSettleTimer);
+    scrollSettleTimer = setTimeout(function () {
+      var idx = Math.round(wrapper.scrollLeft / wrapper.offsetWidth);
+      if (idx !== current) {
+        current = idx;
+        updateDots();
+        resetTimer();
+      }
+    }, 80);
   }, { passive: true });
-
-  track.addEventListener('mousedown', function (e) { startX = e.clientX; dragging = true; });
-  track.addEventListener('mouseup', function (e) {
-    if (!dragging) return;
-    var diff = startX - e.clientX;
-    if (Math.abs(diff) > 40) { go(diff > 0 ? current + 1 : current - 1); resetTimer(); }
-    dragging = false;
-  });
-  track.addEventListener('mouseleave', function () { dragging = false; });
 
   resetTimer();
 })();
