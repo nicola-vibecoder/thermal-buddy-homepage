@@ -11,7 +11,7 @@ hide_banner_cta: true
     Redeem Launch Offer
   </a>
   <p style="font-size: 0.9rem; color: #6e7781; margin-top: 1rem;">
-    <em>Valid for new subscribers until May 31, 2026.<br>Code: <strong>CANADALAUNCHANNUAL30</strong></em>
+    <em>Discount applied automatically via this link.<br>Offer ends on May 14 or once the first 100 spots are filled. Valid for new subscribers only.</em>
   </p>
 </div>
 

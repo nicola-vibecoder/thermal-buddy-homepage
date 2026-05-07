@@ -1,3 +1,4 @@
+{% unless page.is_landing %}
 <script>
 (function () {
   var PREF_KEY = 'tb-lang';
@@ -29,6 +30,7 @@
   }
 })();
 </script>
+{% endunless %}
 <style>
   /* Slightly larger body copy (~+1pt vs default 1rem) */
   body {
