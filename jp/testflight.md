@@ -171,4 +171,4 @@ Thermal Buddy を作ったのは、そういう経験が積み重なったから
 バグを見つけた場合や機能のリクエストは、[GitHub Issues](https://github.com/nicola-vibecoder/thermal-buddy/issues) からお願いします。確実にトラッキングできる一番早い方法です。
 
 ---
-{{ site.copyright }}
+{% include site-footer.html %}

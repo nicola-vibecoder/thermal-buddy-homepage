@@ -62,4 +62,4 @@ Search 画面では、寒さ方向のズレをあたたかさ方向の2倍重く
 
 ---
 
-{{ site.copyright }}
+{% include site-footer.html %}

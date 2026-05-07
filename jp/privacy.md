@@ -51,4 +51,4 @@ Thermal Buddy では、お客様の個人データを処理する**生成AIや�
 このプライバシーポリシーに関するご質問は、GitHub の Issues ページからお問い合わせください。
 
 ---
-{{ site.copyright }}
+{% include site-footer.html %}

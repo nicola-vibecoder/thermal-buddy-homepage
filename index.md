@@ -36,4 +36,4 @@ function sendSecureEmail(encodedEmail) {
 <button class="contact-button" onclick="sendSecureEmail('aW5xdWlyeUB0aGVybWFsYnVkZHkuYXBw')">Send General Inquiry</button>
 
 ---
-{{ site.copyright }}
+{% include site-footer.html %}

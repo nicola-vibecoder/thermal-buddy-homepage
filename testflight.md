@@ -171,4 +171,4 @@ Check the [Frequently Asked Questions (FAQ)](faq.md) — it covers how the app w
 If you run into a bug or want to request a feature, please [open a GitHub Issue](https://github.com/nicola-vibecoder/thermal-buddy/issues). It's the fastest way to make sure it gets tracked.
 
 ---
-{{ site.copyright }}
+{% include site-footer.html %}

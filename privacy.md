@@ -51,4 +51,4 @@ This policy is designed to comply with the 2026 App Store Review Guidelines rega
 If you have any questions about this Privacy Policy, please contact us via the GitHub Issues page.
 
 ---
-{{ site.copyright }}
+{% include site-footer.html %}

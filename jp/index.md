@@ -36,4 +36,4 @@ function sendSecureEmail(encodedEmail) {
 <button class="contact-button" onclick="sendSecureEmail('aW5xdWlyeUB0aGVybWFsYnVkZHkuYXBw')">お問い合わせメールを送信</button>
 
 ---
-{{ site.copyright }}
+{% include site-footer.html %}

@@ -363,4 +363,4 @@ If sync still does not work, please report the issue on GitHub.
 Please open an issue on our [GitHub Issues page](https://github.com/nicola-vibecoder/thermal-buddy/issues).
 
 ---
-{{ site.copyright }}
+{% include site-footer.html %}

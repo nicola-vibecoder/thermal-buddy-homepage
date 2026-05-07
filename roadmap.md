@@ -64,4 +64,4 @@ We would love to make Thermal Buddy accessible to Spanish-speaking communities. 
 
 ---
 
-{{ site.copyright }}
+{% include site-footer.html %}

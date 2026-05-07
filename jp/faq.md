@@ -363,4 +363,4 @@ iCloud 同期の設定は、Thermal Buddy アプリ内ではなく、iPhone の�
 [GitHub の Issues ページ](https://github.com/nicola-vibecoder/thermal-buddy/issues)で Issue を作成してご報告ください。
 
 ---
-{{ site.copyright }}
+{% include site-footer.html %}
