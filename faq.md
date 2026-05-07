@@ -1,13 +1,15 @@
 ---
 layout: default
-title: FAQ
+title: Guide and FAQ
 ---
 
 
-# Frequently Asked Questions (FAQ)
+# Guide and FAQ
 
 <p class="page-meta">Last updated: April 29, 2026</p>
 
+- [Before You Start Logging](#before-you-start-logging)
+- [Tips](#tips)
 - [About Thermal Buddy](#about-thermal-buddy)
   - [What is Thermal Buddy?](#what-is-thermal-buddy)
   - [Who made Thermal Buddy?](#who-made-thermal-buddy)
@@ -46,6 +48,22 @@ title: FAQ
 - [Troubleshooting & Support](#troubleshooting--support)
   - [iCloud sync is not working. What should I check?](#icloud-sync-is-not-working-what-should-i-check)
   - [I found a bug or want to request a feature.](#i-found-a-bug-or-want-to-request-a-feature-where-should-i-contact-you)
+
+---
+
+## Before You Start Logging
+
+### Customise your activities and gear categories first
+
+Before logging your first trip, it is worth spending a minute in **Settings** to tailor the app to how you actually think about your gear. You can rename, hide, reorder, or add custom activities and gear categories. For activities you can also change the icon. Getting this right upfront means every log you write after that will feel natural and quick.
+
+---
+
+## Tips
+
+### Tap a suggestion to fill in brand and category automatically
+
+When adding a gear item, start typing in the item name field. If you have logged that piece of gear before, it will appear as a suggestion. Tap it and the brand and category fill in automatically — no need to type them at all.
 
 ---
 

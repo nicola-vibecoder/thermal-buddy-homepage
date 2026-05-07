@@ -3,7 +3,7 @@
   {% assign on_jp = true %}
 {% endif %}
 <a href="{% if on_jp %}{{ '/jp/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">{% if on_jp %}ホーム{% else %}Home{% endif %}</a>
-<a href="{% if on_jp %}{{ '/jp/faq.html' | relative_url }}{% else %}{{ '/faq.html' | relative_url }}{% endif %}">{% if on_jp %}よくある質問 (FAQ){% else %}FAQ{% endif %}</a>
+<a href="{% if on_jp %}{{ '/jp/faq.html' | relative_url }}{% else %}{{ '/faq.html' | relative_url }}{% endif %}">{% if on_jp %}ガイドとよくある質問{% else %}Guide and FAQ{% endif %}</a>
 <a href="{% if on_jp %}{{ '/jp/getting-help.html' | relative_url }}{% else %}{{ '/getting-help.html' | relative_url }}{% endif %}">{% if on_jp %}ヘルプ{% else %}Getting Help{% endif %}</a>
 <a href="{% if on_jp %}{{ '/jp/roadmap.html' | relative_url }}{% else %}{{ '/roadmap.html' | relative_url }}{% endif %}">{% if on_jp %}ロードマップ{% else %}Roadmap{% endif %}</a>
 <a href="{% if on_jp %}{{ '/jp/version-history.html' | relative_url }}{% else %}{{ '/version-history.html' | relative_url }}{% endif %}">{% if on_jp %}バージョン履歴{% else %}Version History{% endif %}</a>
