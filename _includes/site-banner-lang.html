@@ -52,8 +52,8 @@
 
 <div class="support-site-header">
   {% unless page.hide_site_banner %}
-  <div class="support-page-banner {% if page.path == 'index.md' or page.path == 'jp/index.md' %}rotating-banner{% endif %}">
-    {% if page.path == 'index.md' or page.path == 'jp/index.md' %}
+  <div class="support-page-banner {% if page.path == 'index.md' or page.path == 'jp/index.md' or page.is_landing %}rotating-banner{% endif %}">
+    {% if page.path == 'index.md' or page.path == 'jp/index.md' or page.is_landing %}
       <img src="{{ '/assets/images/hero-banner.png' | relative_url }}" alt="Thermal Buddy 1" width="1080" height="1350" loading="eager" decoding="async" />
       <img src="{{ '/assets/images/hero-banner-2.png' | relative_url }}" alt="Thermal Buddy 2" width="1080" height="1350" loading="lazy" decoding="async" />
       <img src="{{ '/assets/images/hero-banner-3.png' | relative_url }}" alt="Thermal Buddy 3" width="1080" height="1350" loading="lazy" decoding="async" />
@@ -63,7 +63,7 @@
   </div>
   {% endunless %}
 
-  {% if page.path == 'index.md' or page.path == 'jp/index.md' %}
+  {% if page.path == 'index.md' or page.path == 'jp/index.md' or page.is_landing %}
   <div class="app-store-cta">
     <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('App Store Clicked')">
       {% if on_jp %}App Store でダウンロード{% else %}Download on the App Store{% endif %}

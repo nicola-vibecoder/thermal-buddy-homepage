@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+    <style>
+      /* Isolated Campaign Page Styles */
+      .wrapper { 
+        max-width: 650px; /* Optimal reading width for a standalone page */
+        margin: 0 auto; 
+        padding: 20px; 
+      }
+      section { 
+        width: 100% !important; 
+        float: none !important; 
+      }
+      /* Hide elements not requested by the user */
+      .lang-switch { 
+        display: none !important; 
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      {% include site-banner-lang.html %}
+      <section>
+        {{ content }}
+      </section>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
