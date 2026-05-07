@@ -6,6 +6,8 @@ is_landing: true
 hide_banner_cta: true
 ---
 
+### 🍁 Exclusive offer to fellow hikers in Canada! 🍁
+
 <div style="text-align: center; margin: 1rem 0 2.5rem 0;">
   <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6764351164&code=CANADALAUNCHANNUAL30" style="background-color: #22C55E; color: white; padding: 18px 36px; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 1.25rem; display: inline-block; box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4); transition: transform 0.2s;">
     Redeem Launch Offer
@@ -14,8 +16,6 @@ hide_banner_cta: true
     <em>Discount applied automatically via this link.<br>Offer ends on May 14 or once the first 100 spots are filled. Valid for new subscribers only.</em>
   </p>
 </div>
-
-### 🍁 Exclusive offer to fellow hikers in Canada! 🍁
 To celebrate Thermal Buddy launch, we're offering 30% off your first year of Thermal Buddy Annual to our fellow hikers, backpackers and trail runners in Canada. 
 
 Get your first year for just **$8.99 CAD** *(normally $12.99)* and start dialing in your layering for your shoulder season adventures.
