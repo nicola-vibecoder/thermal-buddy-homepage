@@ -121,6 +121,8 @@ Thermal Buddy は、ハイカー・バックパッカー・トレイルランナ
 })();
 </script>
 
+<p style="text-align: center; margin-top: 1rem;"><a href="{{ '/jp/faq.html' | relative_url }}">詳しく見る →</a></p>
+
 <div class="app-store-cta">
   <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('App Store Clicked')">App Store で無料トライアルを開始</a>
 </div>
