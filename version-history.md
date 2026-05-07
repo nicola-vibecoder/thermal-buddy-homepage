@@ -3,7 +3,6 @@ layout: default
 title: Version History
 ---
 
-{% include site-banner-lang.html %}
 
 # Version History
 

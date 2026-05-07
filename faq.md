@@ -3,7 +3,6 @@ layout: default
 title: FAQ
 ---
 
-{% include site-banner-lang.html %}
 
 # Frequently Asked Questions (FAQ)
 

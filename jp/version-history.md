@@ -3,7 +3,6 @@ layout: default
 title: バージョン履歴
 ---
 
-{% include site-banner-lang.html %}
 
 # バージョン履歴
 

@@ -3,7 +3,6 @@ layout: default
 title: ホーム
 ---
 
-{% include site-banner-lang.html %}
 
 # Thermal Buddy へようこそ
 

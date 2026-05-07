@@ -7,7 +7,6 @@ hide_site_banner: true
 
 <img src="{{ '/assets/images/hero-banner.jpg' | relative_url }}" alt="Because nature isn't always accommodating" style="width:100%;border-radius:8px;margin-bottom:1.5rem;">
 
-{% include site-banner-lang.html %}
 
 # Thermal Buddy iOS — Beta Testing — TestFlight
 

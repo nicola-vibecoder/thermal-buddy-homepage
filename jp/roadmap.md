@@ -3,7 +3,6 @@ layout: default
 title: ロードマップ
 ---
 
-{% include site-banner-lang.html %}
 
 # ロードマップ
 

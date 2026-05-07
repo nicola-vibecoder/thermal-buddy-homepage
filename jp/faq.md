@@ -3,7 +3,6 @@ layout: default
 title: よくある質問 (FAQ)
 ---
 
-{% include site-banner-lang.html %}
 
 # よくある質問 (FAQ)
 

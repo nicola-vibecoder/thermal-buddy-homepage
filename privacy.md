@@ -3,7 +3,6 @@ layout: default
 title: Privacy Policy
 ---
 
-{% include site-banner-lang.html %}
 
 # Privacy Policy
 

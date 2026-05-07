@@ -3,7 +3,6 @@ layout: default
 title: プライバシーポリシー
 ---
 
-{% include site-banner-lang.html %}
 
 # プライバシーポリシー
 
