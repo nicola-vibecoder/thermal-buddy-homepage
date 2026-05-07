@@ -15,7 +15,7 @@ hide_banner_cta: true
   </p>
 </div>
 
-### 🍁 Exclusive Canada Launch Offer!
+### 🍁 Exclusive offer to fellow hikers in Canada! 🍁
 To celebrate Thermal Buddy launch, we're offering 30% off your first year of Thermal Buddy Annual to our fellow hikers, backpackers and trail runners in Canada. 
 
 Get your first year for just **$8.99 CAD** *(normally $12.99)* and start dialing in your layering for your shoulder season adventures.
