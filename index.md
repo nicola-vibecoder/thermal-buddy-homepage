@@ -6,34 +6,22 @@ title: Home
 
 # Welcome to Thermal Buddy
 
-Thermal Buddy is a native iOS app created by Eiji, a hiker, backpacker, and trail runner who wanted a better way to remember what gear actually worked in real conditions. After each outing, you record temperature, scene, gear, and how you felt, then use your own history to plan what to wear next time. The benefit is practical and personal: fewer layering mistakes, more consistent comfort, and more confidence before your next trip.
+### How Thermal Buddy works
 
-## Getting Help
+- **Record**: After your run or hike, log the temperature, wear + gear, and your actual skin sensation.
+- **Build**: Create your personal database of what worked and what didn't in real conditions.
+- **Plan**: No more guessing. Use your history to dial in the perfect layering for your next adventure.
 
-The best way to get help or suggest features is to open an issue on GitHub.
+### Why Thermal Buddy?
 
-<p class="cta-actions"><a href="https://github.com/nicola-vibecoder/thermal-buddy/issues" class="github-issue-button">Open GitHub Issues</a></p>
+- Built for Hikers, by a hiker - from real trail experience to solve real layering mistakes.
+- **Practical & Personal**: Move beyond generic charts; rely on your own unique comfort levels.
 
-Using GitHub Issues is the preferred method because:
-- **Transparency:** You can see if others have reported the same issue.
-- **Searchable:** Solutions become a public resource for the entire community.
-- **Efficiency:** It helps me track and prioritize improvements directly in the codebase.
-
-## Contact Us
-
-If you have trouble using GitHub or have a private matter, use the buttons below to send an email. This method helps protect against automated spam.
-
-<script>
-function sendSecureEmail(encodedEmail) {
-  window.location.href = 'mailto:' + atob(encodedEmail);
-}
-</script>
-
-<div class="contact-label">Support (Technical Issues)</div>
-<button class="contact-button" onclick="sendSecureEmail('c3VwcG9ydEB0aGVybWFsYnVkZHkuYXBw')">Send Email to Support</button>
-
-<div class="contact-label">General Inquiries (Press/Business)</div>
-<button class="contact-button" onclick="sendSecureEmail('aW5xdWlyeUB0aGVybWFsYnVkZHkuYXBw')">Send General Inquiry</button>
+<div style="display: flex; gap: 12px; flex-wrap: wrap; margin: 1.5rem 0;">
+  <img src="./assets/images/campaign-1.png" alt="Experience — No More Guesswork" style="width: 220px; border-radius: 12px;">
+  <img src="./assets/images/campaign-2.png" alt="Record — Every Skin Sensation" style="width: 220px; border-radius: 12px;">
+  <img src="./assets/images/campaign-3.png" alt="Refine — Find Your Perfect Setup" style="width: 220px; border-radius: 12px;">
+</div>
 
 ---
 {% include site-footer.html %}
