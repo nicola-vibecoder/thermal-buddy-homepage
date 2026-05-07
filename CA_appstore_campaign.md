@@ -20,5 +20,28 @@ To celebrate Thermal Buddy launch, we're offering 30% off your first year of The
 
 Get your first year for just **$8.99 CAD** *(normally $12.99)* and start dialing in your layering for your shoulder season adventures.
 
+### How it works
+
+- **Record**: After your run or hike, log the temperature, wear + gear, and your actual skin sensation.
+- **Build**: Create your personal database of what worked and what didn't in real conditions.
+- **Plan**: No more guessing. Use your history to dial in the perfect layering for your next adventure.
+
+### Why Thermal Buddy?
+
+- Built for Hikers, by a hiker - from real trail experience to solve real layering mistakes.
+- **Practical & Personal**: Move beyond generic charts; rely on your own unique comfort levels.
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 3rem 0;">
+  <img src="{{ '/assets/images/hero-banner.png' | relative_url }}" alt="Experience - No More Guesswork" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" loading="lazy" />
+  <img src="{{ '/assets/images/hero-banner-3.png' | relative_url }}" alt="Record - Every Skin Sensation" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" loading="lazy" />
+  <img src="{{ '/assets/images/hero-banner-2.png' | relative_url }}" alt="Refine - Find Your Perfect Setup" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" loading="lazy" />
+</div>
+
+<div style="text-align: center; margin: 2.5rem 0 3.5rem 0;">
+  <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6764351164&code=CANADALAUNCHANNUAL30" style="background-color: #22C55E; color: white; padding: 18px 36px; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 1.25rem; display: inline-block; box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4); transition: transform 0.2s;">
+    Redeem Launch Offer
+  </a>
+</div>
+
 ---
 {% include site-footer.html %}
