@@ -64,11 +64,13 @@
   {% endunless %}
 
   {% if page.path == 'index.md' or page.path == 'jp/index.md' or page.is_landing %}
+  {% unless page.hide_banner_cta %}
   <div class="app-store-cta">
     <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('App Store Clicked')">
       {% if on_jp %}App Store でダウンロード{% else %}Download on the App Store{% endif %}
     </a>
   </div>
+  {% endunless %}
   {% endif %}
 
   <nav class="lang-switch" aria-label="{% if on_jp %}言語選択{% else %}Language{% endif %}">
