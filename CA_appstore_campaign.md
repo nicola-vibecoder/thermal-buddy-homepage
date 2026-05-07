@@ -32,9 +32,9 @@ Get your first year for just **$8.99 CAD** *(normally $12.99)* and start dialing
 - **Practical & Personal**: Move beyond generic charts; rely on your own unique comfort levels.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 3rem 0;">
-  <img src="{{ '/assets/images/campaign-1.png' | relative_url }}" alt="Step 1" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" loading="lazy" />
-  <img src="{{ '/assets/images/campaign-2.png' | relative_url }}" alt="Step 2" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" loading="lazy" />
-  <img src="{{ '/assets/images/campaign-3.png' | relative_url }}" alt="Step 3" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" loading="lazy" />
+  <img src="{{ '/assets/images/campaign-1.png' | relative_url }}?v=2" alt="Step 1" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+  <img src="{{ '/assets/images/campaign-2.png' | relative_url }}?v=2" alt="Step 2" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+  <img src="{{ '/assets/images/campaign-3.png' | relative_url }}?v=2" alt="Step 3" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
 </div>
 
 <div style="text-align: center; margin: 2.5rem 0 3.5rem 0;">
