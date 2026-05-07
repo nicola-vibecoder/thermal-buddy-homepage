@@ -15,14 +15,14 @@ move_nav_to_bottom: true
 
 ### Why Thermal Buddy?
 
-- Built for Hikers, by a hiker - from real trail experience to solve real layering mistakes.
+- **Built for Hikers, by a hiker** - from real trail experience to solve real layering mistakes.
 - **Practical & Personal**: Move beyond generic charts; rely on your own unique comfort levels.
 
 <style>
 .campaign-carousel {
   position: relative;
-  width: 100%;
-  max-width: 380px;
+  width: 90%;
+  max-width: 342px;
   margin: 1.5rem auto 0;
   user-select: none;
 }

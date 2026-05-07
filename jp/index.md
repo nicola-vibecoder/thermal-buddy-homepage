@@ -12,8 +12,8 @@ Thermal Buddy は、ハイカー・バックパッカー・トレイルランナ
 <style>
 .campaign-carousel {
   position: relative;
-  width: 100%;
-  max-width: 380px;
+  width: 90%;
+  max-width: 342px;
   margin: 1.5rem auto 0;
   user-select: none;
 }
