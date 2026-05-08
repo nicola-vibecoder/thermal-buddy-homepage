@@ -7,7 +7,7 @@ hide_banner_cta: true
 lang: ja
 ---
 
-### 🗻 日本のハイカーへ、Thermal Buddy リリース記念特別キャンペーン 🗻<br>初年度 33% OFF！
+<h3 style="text-align: center;">日本のハイカー、バックパッカー、トレイルランナーの皆様へ、<br>🗻 Thermal Buddy リリース記念特別キャンペーン 🗻<br>初年度 33% OFF！</h3>
 
 <div style="text-align: center; margin: 1rem 0 2.5rem 0;">
   <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6764351164&code=JAPANLAUNCHANNUAL30" style="background-color: #22C55E; color: white; padding: 18px 36px; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 1.25rem; display: inline-block; box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4); transition: transform 0.2s;" onclick="zaraz.track('JP Campaign App Store Clicked')">
