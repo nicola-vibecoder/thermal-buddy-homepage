@@ -13,7 +13,7 @@ hide_banner_cta: true
     Redeem Launch Offer
   </a>
   <p style="font-size: 0.9rem; color: #6e7781; margin-top: 1rem;">
-    The App Store will open and show the offer details. No payment will be made until you review and confirm.<br>Offer ends on May 14 or once the first 100 spots are filled.
+    The App Store will open and show the offer details. <br>No payment will be made until you review and confirm.<br>Offer ends on May 14 or once the first 100 spots are filled.
   </p>
 </div>
 To celebrate Thermal Buddy launch, we're offering 30% off your first year of Thermal Buddy Annual to our fellow hikers, backpackers and trail runners in Canada. 
