@@ -37,12 +37,6 @@ lang: ja
   <li><strong>実用的でパーソナル</strong>: 一般的な評価を超えて、自分自身の快適ゾーンを基準にしましょう。</li>
 </ul>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 3rem 0;">
-  <img src="{{ '/assets/images/Campaign-JP1.png' | relative_url }}?v=1" alt="EXPERIENCE — もう服装に迷わない" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
-  <img src="{{ '/assets/images/Campaign-JP2.png' | relative_url }}?v=1" alt="RECORD — 肌で感じたすべてをログに" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
-  <img src="{{ '/assets/images/Campaign-JP3.png' | relative_url }}?v=1" alt="REFINE — 自分だけの最適を見つける" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
-</div>
-
 <div style="text-align: center; margin: 2.5rem 0 3.5rem 0;">
   <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6764351164&code=TRIAL3MONTHS" style="background-color: #22C55E; color: white; padding: 18px 36px; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 1.25rem; display: inline-block; box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4); transition: transform 0.2s;" onclick="zaraz.track('TRIAL3MONTHS')">
     無料トライアルを始める
