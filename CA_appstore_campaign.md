@@ -9,7 +9,7 @@ hide_banner_cta: true
 ### 🍁 Exclusive offer to fellow hikers in Canada 🍁<br>30% off first year!
 
 <div style="text-align: center; margin: 1rem 0 2.5rem 0;">
-  <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6764351164&code=CANADALAUNCHANNUAL30" style="background-color: #22C55E; color: white; padding: 18px 36px; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 1.25rem; display: inline-block; box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4); transition: transform 0.2s;" onclick="zaraz.track('CA Campaign App Store Clicked')">
+  <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6764351164&code=CANADALAUNCHANNUAL30" style="background-color: #22C55E; color: white; padding: 18px 36px; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 1.25rem; display: inline-block; box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4); transition: transform 0.2s;" onclick="zaraz.track('CA Campaign App Store Clicked'); return gtag_report_conversion(this.href);">
     Redeem Launch Offer
   </a>
   <p style="font-size: 0.9rem; color: #6e7781; margin-top: 1rem;">
@@ -38,7 +38,7 @@ Get your first year for just **$8.99 CAD** *(normally $12.99)* and start dialing
 </div>
 
 <div style="text-align: center; margin: 2.5rem 0 3.5rem 0;">
-  <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6764351164&code=CANADALAUNCHANNUAL30" style="background-color: #22C55E; color: white; padding: 18px 36px; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 1.25rem; display: inline-block; box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4); transition: transform 0.2s;" onclick="zaraz.track('CA Campaign App Store Clicked')">
+  <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6764351164&code=CANADALAUNCHANNUAL30" style="background-color: #22C55E; color: white; padding: 18px 36px; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 1.25rem; display: inline-block; box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4); transition: transform 0.2s;" onclick="zaraz.track('CA Campaign App Store Clicked'); return gtag_report_conversion(this.href);">
     Redeem Launch Offer
   </a>
 </div>

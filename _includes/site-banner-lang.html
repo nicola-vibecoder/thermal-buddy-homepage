@@ -78,7 +78,7 @@
   {% if page.path == 'index.md' or page.path == 'jp/index.md' or page.is_landing %}
   {% unless page.hide_banner_cta %}
   <div class="app-store-cta">
-    <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('App Store Clicked')">
+    <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('App Store Clicked'); return gtag_report_conversion(this.href);">
       {% if on_jp %}App Store で無料トライアルを開始{% else %}Start Free Trial on App Store{% endif %}
     </a>
   </div>
