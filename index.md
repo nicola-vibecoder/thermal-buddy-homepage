@@ -133,7 +133,7 @@ move_nav_to_bottom: true
 <p style="text-align: center; margin-top: 1rem;"><a href="{{ '/faq.html' | relative_url }}">Learn more →</a></p>
 
 <div class="app-store-cta">
-  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('App Store Clicked'); return gtag_report_conversion(this.href);">Start Free Trial on App Store</a>
+  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">Start Free Trial on App Store</a>
 </div>
 
 <div class="sidebar-resources">

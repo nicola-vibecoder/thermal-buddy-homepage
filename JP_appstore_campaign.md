@@ -10,7 +10,7 @@ lang: ja
 <h3 style="text-align: center;">日本の山が大好きな皆様へ、<br>Thermal Buddy <br>🗻 リリース記念キャンペーン 🗻<br>初年度 33% OFF！</h3>
 
 <div style="text-align: center; margin: 1rem 0 2.5rem 0;">
-  <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6764351164&code=JAPANLAUNCHANNUAL30" style="background-color: #22C55E; color: white; padding: 18px 36px; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 1.25rem; display: inline-block; box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4); transition: transform 0.2s;" onclick="zaraz.track('JP Campaign App Store Clicked'); return gtag_report_conversion(this.href);">
+  <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6764351164&code=JAPANLAUNCHANNUAL30" style="background-color: #22C55E; color: white; padding: 18px 36px; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 1.25rem; display: inline-block; box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4); transition: transform 0.2s;" onclick="zaraz.track('APPSTORE_CLICK');">
     キャンペーンを適用
   </a>
   <p style="font-size: 0.9rem; color: #6e7781; margin-top: 1rem;">
@@ -44,7 +44,7 @@ lang: ja
 </div>
 
 <div style="text-align: center; margin: 2.5rem 0 3.5rem 0;">
-  <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6764351164&code=JAPANLAUNCHANNUAL30" style="background-color: #22C55E; color: white; padding: 18px 36px; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 1.25rem; display: inline-block; box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4); transition: transform 0.2s;" onclick="zaraz.track('JP Campaign App Store Clicked'); return gtag_report_conversion(this.href);">
+  <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6764351164&code=JAPANLAUNCHANNUAL30" style="background-color: #22C55E; color: white; padding: 18px 36px; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 1.25rem; display: inline-block; box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4); transition: transform 0.2s;" onclick="zaraz.track('APPSTORE_CLICK');">
     キャンペーンを適用
   </a>
 </div>
