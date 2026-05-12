@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
+    {% if page.apple_app_banner %}
+    <meta name="apple-itunes-app" content="app-id=6764351164, affiliate-data=ct={{ page.apple_app_banner }}">
+    {% endif %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
     <style>
