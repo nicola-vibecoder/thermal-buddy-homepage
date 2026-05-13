@@ -4,6 +4,7 @@ title: Thermal Buddy - CA Campaign
 permalink: /CA_appstore_campaign
 is_landing: true
 hide_banner_cta: true
+published: false
 ---
 
 ### 🍁 Exclusive offer to fellow hikers in Canada 🍁<br>30% off first year!
