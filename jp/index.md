@@ -162,7 +162,7 @@ move_nav_to_bottom: true
   </div>
 </div>
 
-<p style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;"><a href="{{ '/jp/faq.html' | relative_url }}">詳しく見る →</a></p>
+
 
 <div class="sidebar-resources">
   <p class="view">
