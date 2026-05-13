@@ -15,8 +15,8 @@ move_nav_to_bottom: true
 
 ### Why Thermal Buddy?
 
-- **Built for Hikers. By a Hiker.** - Eiji, a backpacker/trail runner built this app after too many cold, sleepless nights under a tarp. It solves the layering and gear guessing game, so you never have to repeat those same COLD mistakes.
-- **Your 'Just Right' is unique.**: Move beyond generic recommendations; rely on your own unique comfort levels because there is no 'one size fits all' when it comes to thermal comfort. 
+- **Built for Hikers. By a Hiker.** - Eiji, a backpacker/trail runner built this app after too many cold, sleepless nights under a tarp. It solves the layering and gear guessing game, so you never have to repeat those same 'cold' mistakes.
+- **Your 'Just Right' is Unique.**: Move beyond generic recommendations; rely on your own unique comfort levels because there is no 'one size fits all' when it comes to thermal comfort. 
 - **Highly Customizable.**: Whatever outdoor activities you are into, Thermal Buddy can accommodate. You can customize activities, scenes and gear categories so that you can log only what you need. You can even change icons.
 
 <div class="app-store-cta" style="margin: 2rem 0;">
