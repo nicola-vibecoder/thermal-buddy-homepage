@@ -9,14 +9,15 @@ move_nav_to_bottom: true
 
 ### How Thermal Buddy works
 
-- **Record**: After your run or hike, log the temperature, wear + gear, and your actual skin sensation.
-- **Build**: Create your personal database of what worked and what didn't in real conditions.
-- **Plan**: No more guessing. Use your history to dial in the perfect layering for your next adventure.
+- **RECORD**: After your hike or run, log the temperature, weather, wear + gear, and how you felt - hot, cold or Just Right.
+- **REFINE**: Create your personal database of what worked and what didn't in real conditions.
+- **ENJOY**: No more guessing. Use your data to dial in the Just Right layering and sleeping kit for your next adventure. So that you can just enjoy the outdoor experience.
 
 ### Why Thermal Buddy?
 
-- **Built for Hikers, by a hiker** - from real trail experience to solve real layering mistakes.
-- **Practical & Personal**: Move beyond generic charts; rely on your own unique comfort levels.
+- **Built for Hikers. By a Hiker.** - Eiji, a backpacker/trail runner built this app after too many cold, sleepless nights under a tarp. It solves the layering and gear guessing game, so you never have to repeat those same COLD mistakes.
+- **Your 'Just Right' is unique.**: Move beyond generic recommendations; rely on your own unique comfort levels because there is no 'one size fits all' when it comes to thermal comfort. 
+- **Highly Customizable.**: Whatever outdoor activities you are into, Thermal Buddy can accommodate. You can customize activities, scenes and gear categories so that you can log only what you need. You can even change icons.
 
 <div class="app-store-cta" style="margin: 2rem 0;">
   <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">Try it Free on the App Store</a>
