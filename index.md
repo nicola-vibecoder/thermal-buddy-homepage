@@ -18,6 +18,10 @@ move_nav_to_bottom: true
 - **Built for Hikers, by a hiker** - from real trail experience to solve real layering mistakes.
 - **Practical & Personal**: Move beyond generic charts; rely on your own unique comfort levels.
 
+<div class="app-store-cta" style="margin: 2rem 0;">
+  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">Try it Free on the App Store</a>
+</div>
+
 <style>
 .campaign-carousel {
   position: relative;
@@ -68,6 +72,27 @@ move_nav_to_bottom: true
 }
 .carousel-dot:hover { background: #9ca3af; }
 .carousel-dot.active:hover { background: #16a34a; }
+
+.sticky-cta-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  border-top: 1px solid #e5e7eb;
+  padding: 1rem;
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+@media (min-width: 768px) {
+  .sticky-cta-container {
+    display: none;
+  }
+}
 </style>
 
 <div class="campaign-carousel">
@@ -130,11 +155,13 @@ move_nav_to_bottom: true
 })();
 </script>
 
-<p style="text-align: center; margin-top: 1rem;"><a href="{{ '/faq.html' | relative_url }}">Learn more →</a></p>
-
-<div class="app-store-cta">
-  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">Start Free Trial on App Store</a>
+<div class="sticky-cta-container">
+  <div class="app-store-cta" style="margin: 0; width: 100%;">
+    <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">Try it Free on the App Store</a>
+  </div>
 </div>
+
+<p style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;"><a href="{{ '/faq.html' | relative_url }}">Learn more →</a></p>
 
 <div class="sidebar-resources">
   <p class="view">
