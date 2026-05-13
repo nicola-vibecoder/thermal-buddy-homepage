@@ -78,6 +78,7 @@ move_nav_to_bottom: true
   bottom: 0;
   left: 0;
   width: 100%;
+  box-sizing: border-box;
   background: rgba(255, 255, 255, 0.95);
   border-top: 1px solid #e5e7eb;
   padding: 1rem;

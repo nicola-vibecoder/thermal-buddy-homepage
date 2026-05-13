@@ -75,15 +75,7 @@
   </div>
   {% endunless %}
 
-  {% if page.path == 'index.md' or page.path == 'jp/index.md' or page.is_landing %}
-  {% unless page.hide_banner_cta %}
-  <div class="app-store-cta">
-    <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">
-      {% if on_jp %}App Store で無料で試す{% else %}Try it Free on the App Store{% endif %}
-    </a>
-  </div>
-  {% endunless %}
-  {% endif %}
+
 
   <nav class="lang-switch" aria-label="{% if on_jp %}言語選択{% else %}Language{% endif %}">
     <a href="{{ en_path | relative_url }}" class="lang-switch__link" {% unless on_jp %}aria-current="page"{% endunless %} onclick="localStorage.setItem('tb-lang','en')">English</a>
