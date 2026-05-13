@@ -99,9 +99,9 @@ move_nav_to_bottom: true
 <div class="campaign-carousel">
   <div class="carousel-track-wrapper" id="carouselWrapper">
     <div class="carousel-track" id="carouselTrack">
-      <img src="../assets/images/campaign-1.png" alt="EXPERIENCE — No More Guesswork" class="carousel-slide">
-      <img src="../assets/images/campaign-2.png" alt="RECORD — Every Skin Sensation" class="carousel-slide">
-      <img src="../assets/images/campaign-3.png" alt="REFINE — Find Your Perfect Setup" class="carousel-slide">
+      <img src="../assets/images/Campaign-JP1.png" alt="EXPERIENCE — No More Guesswork" class="carousel-slide">
+      <img src="../assets/images/Campaign-JP2.png" alt="RECORD — Every Skin Sensation" class="carousel-slide">
+      <img src="../assets/images/Campaign-JP3.png" alt="REFINE — Find Your Perfect Setup" class="carousel-slide">
     </div>
   </div>
   <div class="carousel-dots" id="carouselDots">
