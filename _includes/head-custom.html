@@ -10,26 +10,53 @@
     location.replace(newPath);
   }
 
+  var qs = window.location.search; // preserve ?src= and other params
   if (stored) {
     if (stored === 'ja' && !onJp) {
-      redirectTo('/jp' + (path === '/' ? '/' : path));
+      redirectTo('/jp' + (path === '/' ? '/' : path) + qs);
     } else if (stored === 'en' && onJp) {
-      redirectTo(path.replace(/^\/jp/, '') || '/');
+      redirectTo((path.replace(/^\/jp/, '') || '/') + qs);
     }
-    return;
+  } else {
+    // First visit: auto-detect
+    var lang = (navigator.language || '').toLowerCase();
+    var isJa = lang === 'ja' || lang.startsWith('ja-');
+    localStorage.setItem(PREF_KEY, isJa ? 'ja' : 'en');
+    if (isJa && !onJp) {
+      redirectTo('/jp' + (path === '/' ? '/' : path) + qs);
+    } else if (!isJa && onJp) {
+      redirectTo((path.replace(/^\/jp/, '') || '/') + qs);
+    }
   }
 
-  // First visit: auto-detect
-  var lang = (navigator.language || '').toLowerCase();
-  var isJa = lang === 'ja' || lang.startsWith('ja-');
-  localStorage.setItem(PREF_KEY, isJa ? 'ja' : 'en');
-  if (isJa && !onJp) {
-    redirectTo('/jp' + (path === '/' ? '/' : path));
-  } else if (!isJa && onJp) {
-    redirectTo(path.replace(/^\/jp/, '') || '/');
-  }
-})();
-</script>
+  // Dynamic App Store Campaign Tracking
+  document.addEventListener('DOMContentLoaded', function() {
+    var urlParams = new URLSearchParams(window.location.search);
+    var src = urlParams.get('src') || urlParams.get('utm_source'); // utm_source as fallback
+    var ct = 'Organic_LP'; // Default
+
+    if (src === 'google') ct = 'Google_Ads_LP';
+    else if (src === 'instagram') ct = 'Instagram_Ads_LP';
+
+    // 1. Update all App Store links on the page
+    var links = document.querySelectorAll('a[href*="apps.apple.com"]');
+    links.forEach(function(link) {
+      var url = new URL(link.href);
+      url.searchParams.set('ct', ct);
+      link.href = url.toString();
+    });
+
+    // 2. Update Smart App Banner meta tag
+    var banner = document.querySelector('meta[name="apple-itunes-app"]');
+    if (banner) {
+      var content = banner.getAttribute('content');
+      if (content && content.includes('affiliate-data=')) {
+        var newContent = content.replace(/ct=[^,&]*/, 'ct=' + ct);
+        banner.setAttribute('content', newContent);
+      }
+    }
+  });
+})();</script>
 {% endunless %}
 <style>
   /* Slightly larger body copy (~+1pt vs default 1rem) */
