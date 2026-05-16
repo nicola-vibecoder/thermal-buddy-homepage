@@ -33,10 +33,15 @@
   document.addEventListener('DOMContentLoaded', function() {
     var urlParams = new URLSearchParams(window.location.search);
     var src = urlParams.get('src') || urlParams.get('utm_source'); // utm_source as fallback
-    var ct = 'Organic_LP'; // Default
+    var ct = 'Organic_LP'; // Default (no ?src= present)
 
-    if (src === 'google') ct = 'Google_Ads_LP';
-    else if (src === 'instagram') ct = 'Instagram_Ads_LP';
+    if (src) {
+      // Paid channels get specific labels
+      if (src === 'google')    ct = 'Google_Ads_LP';
+      else if (src === 'instagram') ct = 'Instagram_Ads_LP';
+      // Any other ?src=value → auto-format as "Value_LP" (e.g. src=reddit → Reddit_LP)
+      else ct = src.charAt(0).toUpperCase() + src.slice(1).toLowerCase() + '_LP';
+    }
 
     // 1. Update all App Store links on the page
     var links = document.querySelectorAll('a[href*="apps.apple.com"]');
