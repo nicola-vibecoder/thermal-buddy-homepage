@@ -2,25 +2,16 @@
 layout: default
 title: ホーム
 move_nav_to_bottom: true
+hide_site_header: true
 ---
 
 
-# Thermal Buddy へようこそ
+# もうレイヤリングに迷わない。<br>歩く時も、眠る時も快適に。
 
-### Thermal Buddy の使い方
-
-- **RECORD**: ハイキングやランの後に、気温、天候、着用ウェア・ギア、そして「暑かった」「寒かった」「ちょうどよかった」という体感を記録します。
-- **REFINE**: 実際のフィールドで「何がうまくいき、何がダメだったか」を自分だけのデータベースとして蓄積します。
-- **ENJOY**: もう勘に頼らない。データを使って、次の山行に最適なレイヤリングやスリーピングギアを導き出しましょう。あとは、ただアウトドア体験を楽しむだけです。
-
-### なぜ Thermal Buddy？
-
-- **ハイカーが、ハイカーのために作った**: バックパッカーでありトレイルランナーでもある開発者のEijiが、タープの下で何度も寒さに震え、眠れない夜を過ごした経験からこのアプリを作りました。「勘」に頼ったウェアやスリーピングギア選びの失敗 - あの「寒い」失敗 - を何度も繰り返さないために。
-- **あなたの「ちょうどいい」は、あなただけのもの**: あなた自身の「快適」を基準にしましょう。快適な体感温度に「万人向け」の正解はありません。
-- **高いカスタマイズ性**: どんなアウトドアアクティビティでも、Thermal Buddyは対応します。アクティビティ、シーン、ギアカテゴリーを自由にカスタマイズして、あなたが必要とするデータだけを記録できます。アイコンもあなた好みに変更できます。
+過去のアクティビティデータが答えを教えてくれます。Thermal Buddyは、あなたの山行記録から、あなただけの「快適データベース」を作ります。山に向けて出発する前に、何を着て、何を持っていくべきかが正確に分かります。
 
 <div class="app-store-cta" style="margin: 2rem 0;">
-  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">App Store で無料で試す</a>
+  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">寒くて眠れない夜にさよなら。無料でダウンロード。</a>
 </div>
 
 <style>
@@ -28,7 +19,7 @@ move_nav_to_bottom: true
   position: relative;
   width: 90%;
   max-width: 342px;
-  margin: 1.5rem auto 0;
+  margin: 1.5rem auto 2.5rem;
   user-select: none;
 }
 .carousel-track-wrapper {
@@ -73,28 +64,6 @@ move_nav_to_bottom: true
 }
 .carousel-dot:hover { background: #9ca3af; }
 .carousel-dot.active:hover { background: #16a34a; }
-
-.sticky-cta-container {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.95);
-  border-top: 1px solid #e5e7eb;
-  padding: 1rem;
-  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  display: flex;
-  justify-content: center;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
-@media (min-width: 768px) {
-  .sticky-cta-container {
-    display: none;
-  }
-}
 </style>
 
 <div class="campaign-carousel">
@@ -157,13 +126,22 @@ move_nav_to_bottom: true
 })();
 </script>
 
-<div class="sticky-cta-container">
-  <div class="app-store-cta" style="margin: 0; width: 100%;">
-    <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">App Store で無料で試す</a>
-  </div>
+### 朝までずっと暖かい、そんな体験を。
+
+運ではなくデータに頼りましょう。Thermal Buddyは実際のフィールド体験からあなた専用の快適プロファイルを作成します。もう勘でパッキングするのはやめて、確かなデータに基づいた装備選びを始めましょう。
+
+- **ENJOY (楽しむ)**: 行く前に分かる。過去のログを呼び出して、同じ条件（気温、天候、アクティビティ）で何がうまくいったかを正確に確認。夜中の2時にスリーピングシステムを後悔することはもうありません。
+- **REFINE (洗練する)**: 一回のアクティビティごとにプロファイルが研ぎ澄まされる。データが「持っていくべきレイヤー」「外すべきギア」「交換すべきアイテム」を教えてくれます。
+- **RECORD (記録する)**: 活動後、使ったウェア、スリーピングギア、コンディション、そして「暑い」「寒い」「ちょうどいい」といった体感を記録。簡単に記録できます。
+
+### なぜ Thermal Buddy？
+
+- **ハイカーが、ハイカーのために作りました** バックパッカーでありトレイルランナーでもあるEijiが、タープの下で何度も寒さに震え、眠れない夜を過ごした経験から作りました。ウェアやギア選びの「勘」に頼るのを止めるために。
+- **あなたの「ちょうどいい」は、あなただけのもの** 一般的な推奨値から一歩先へ。あなた自身の快適データを信頼しましょう。体感温度に「万人向け」の正解はありません。
+
+<div class="app-store-cta" style="margin: 3rem 0;">
+  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">もうパッキングに悩まない。無料でダウンロード。</a>
 </div>
-
-
 
 <div class="sidebar-resources">
   <p class="view">
