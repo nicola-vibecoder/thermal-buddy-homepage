@@ -5,22 +5,12 @@ move_nav_to_bottom: true
 ---
 
 
-# Welcome to Thermal Buddy
+# Stop Guessing. Start Sleeping Warm.
 
-### How Thermal Buddy works
-
-- **RECORD**: After your hike or run, log the temperature, weather, wear + gear, and how you felt - hot, cold or Just Right.
-- **REFINE**: Create your personal database of what worked and what didn't in real conditions.
-- **ENJOY**: No more guessing. Use your data to dial in the Just Right layering and sleeping kit for your next adventure. So that you can just enjoy the outdoor experience.
-
-### Why Thermal Buddy?
-
-- **Built for Hikers. By a Hiker.** - Eiji, a backpacker/trail runner built this app after too many cold, sleepless nights under a tarp. It solves the layering and gear guessing game, so you never have to repeat those same 'cold' mistakes.
-- **Your 'Just Right' is Unique.**: Move beyond generic recommendations; rely on your own unique comfort levels because there is no 'one size fits all' when it comes to thermal comfort. 
-- **Highly Customizable.**: Whatever outdoor activities you are into, Thermal Buddy can accommodate. You can customize activities, scenes and gear categories so that you can log only what you need. You can even change icons.
+Your past outings hold the answer. Thermal Buddy turns your hiking and camping logs into a personal comfort database — so you know exactly what to wear and carry before you ever leave the trailhead.
 
 <div class="app-store-cta" style="margin: 2rem 0;">
-  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">Try it Free on the App Store</a>
+  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">Pack Right. Stay Warm. Download Free.</a>
 </div>
 
 <style>
@@ -73,28 +63,6 @@ move_nav_to_bottom: true
 }
 .carousel-dot:hover { background: #9ca3af; }
 .carousel-dot.active:hover { background: #16a34a; }
-
-.sticky-cta-container {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.95);
-  border-top: 1px solid #e5e7eb;
-  padding: 1rem;
-  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  display: flex;
-  justify-content: center;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
-@media (min-width: 768px) {
-  .sticky-cta-container {
-    display: none;
-  }
-}
 </style>
 
 <div class="campaign-carousel">
@@ -157,12 +125,18 @@ move_nav_to_bottom: true
 })();
 </script>
 
-<div class="sticky-cta-container">
-  <div class="app-store-cta" style="margin: 0; width: 100%;">
-    <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">Try it Free on the App Store</a>
-  </div>
-</div>
+### Imagine Waking Up Warm Every Time
 
+That's not luck — it's data. Thermal Buddy builds your personal comfort profile from real outings, so you stop packing by instinct and start packing by evidence.
+
+- **ENJOY**: Know before you go. Pull up your logs and see exactly what worked in the same conditions — temperature, weather, terrain. No more second-guessing your sleep system at 2am.
+- **REFINE**: Each outing sharpens your profile. Your data tells you what layer to keep, what to cut, and what to swap.
+- **RECORD**: After each outing, log your layers, the conditions, and how you felt. Hot, cold, or Just Right. Takes 60 seconds.
+
+### Why Thermal Buddy?
+
+- **Built for Hikers. By a Hiker.** Eiji built this app after too many cold, sleepless nights under a tarp. It solves the layering and gear guessing game for good.
+- **Your 'Just Right' is Unique.** Move beyond generic recommendations. Rely on your own comfort data — there's no one-size-fits-all when it comes to thermal comfort.
 
 
 <div class="sidebar-resources">
