@@ -62,6 +62,7 @@
   {% assign show_home_link = false %}
 {% endif %}
 
+{% unless page.hide_site_header %}
 <div class="support-site-header">
   {% unless page.hide_site_banner %}
   <div class="support-page-banner {% if page.is_landing %}rotating-banner{% endif %}">
@@ -85,3 +86,4 @@
     <a href="{{ jp_path | relative_url }}" class="lang-switch__link" {% if on_jp %}aria-current="page"{% endif %} onclick="localStorage.setItem('tb-lang','ja')">日本語</a>
   </nav>
 </div>
+{% endunless %}

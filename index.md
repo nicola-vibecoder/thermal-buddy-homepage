@@ -2,6 +2,7 @@
 layout: default
 title: Home
 move_nav_to_bottom: true
+hide_site_header: true
 ---
 
 
@@ -138,7 +139,9 @@ That's not luck — it's data. Thermal Buddy builds your personal comfort profil
 - **Built for Hikers. By a Hiker.** Eiji built this app after too many cold, sleepless nights under a tarp. It solves the layering and gear guessing game for good.
 - **Your 'Just Right' is Unique.** Move beyond generic recommendations. Rely on your own comfort data — there's no one-size-fits-all when it comes to thermal comfort.
 
-
+<div class="app-store-cta" style="margin: 3rem 0;">
+  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">Pack Right. Stay Warm. Download Free.</a>
+</div>
 <div class="sidebar-resources">
   <p class="view">
     <strong>Menu</strong>
