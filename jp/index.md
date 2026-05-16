@@ -6,7 +6,7 @@ hide_site_header: true
 ---
 
 
-<h1 style="font-size: 2rem; line-height: 1.4;">もうレイヤリングに迷わない。<br>歩く時も、眠る時も快適に。</h1>
+<h1 style="font-size: 1.5rem; line-height: 1.4; margin-bottom: 1rem;">もうレイヤリングに迷わない。<br>歩く時も、眠る時も快適に。</h1>
 
 過去のアクティビティデータが答えを教えてくれます。Thermal Buddyは、あなたの山行記録から、あなただけの「快適データベース」を作ります。山に向けて出発する前に、何を着て、何を持っていくべきかが正確に分かります。
 
