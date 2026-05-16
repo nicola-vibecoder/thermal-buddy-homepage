@@ -6,12 +6,12 @@ hide_site_header: true
 ---
 
 
-# もうレイヤリングに迷わない。<br>歩く時も、眠る時も快適に。
+<h1 style="font-size: 2rem; line-height: 1.4;">もうレイヤリングに迷わない。<br>歩く時も、眠る時も快適に。</h1>
 
 過去のアクティビティデータが答えを教えてくれます。Thermal Buddyは、あなたの山行記録から、あなただけの「快適データベース」を作ります。山に向けて出発する前に、何を着て、何を持っていくべきかが正確に分かります。
 
 <div class="app-store-cta" style="margin: 2rem 0;">
-  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">寒くて眠れない夜にさよなら。無料でダウンロード。</a>
+  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">寒くて眠れない夜にさよなら。<br>無料でダウンロード。</a>
 </div>
 
 <style>
@@ -140,7 +140,7 @@ hide_site_header: true
 - **あなたの「ちょうどいい」は、あなただけのもの** 一般的な推奨値から一歩先へ。あなた自身の快適データを信頼しましょう。体感温度に「万人向け」の正解はありません。
 
 <div class="app-store-cta" style="margin: 3rem 0;">
-  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">もうパッキングに悩まない。無料でダウンロード。</a>
+  <a href="https://apps.apple.com/app/apple-store/id6764351164?pt=128836898&ct=Support%20Page%20Link&mt=8" class="app-store-button" onclick="zaraz.track('APPSTORE_CLICK');">もうパッキングに悩まない。<br>無料でダウンロード。</a>
 </div>
 
 <div class="sidebar-resources">
