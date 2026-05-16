@@ -6,7 +6,7 @@ hide_site_header: true
 ---
 
 
-# Stop Guessing. Hike Warm. Sleep Warm.
+# Stop Guessing.<br>Hike Warm. Sleep Warm.
 
 Your past outings hold the answer. Thermal Buddy turns your hiking and camping logs into a personal comfort database — so you know exactly what to wear and carry before you ever leave the trailhead.
 
