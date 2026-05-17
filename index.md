@@ -69,8 +69,8 @@ Your past outings hold the answer. Thermal Buddy turns your hiking and camping l
 <div class="campaign-carousel">
   <div class="carousel-track-wrapper" id="carouselWrapper">
     <div class="carousel-track" id="carouselTrack">
-      <img src="./assets/images/campaign-1.png" alt="Experience — No More Guesswork" class="carousel-slide">
-      <img src="./assets/images/campaign-2.png" alt="Record — Every Skin Sensation" class="carousel-slide">
+      <img src="./assets/images/campaign-1.png?v=2" alt="Experience — No More Guesswork" class="carousel-slide">
+      <img src="./assets/images/campaign-2.png?v=2" alt="Record — Every Skin Sensation" class="carousel-slide">
       <img src="./assets/images/campaign-3.png" alt="Refine — Find Your Perfect Setup" class="carousel-slide">
     </div>
   </div>

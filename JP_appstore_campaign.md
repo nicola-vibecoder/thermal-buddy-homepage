@@ -38,8 +38,8 @@ lang: ja
 </ul>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 3rem 0;">
-  <img src="{{ '/assets/images/Campaign-JP1.png' | relative_url }}?v=1" alt="EXPERIENCE — もう服装に迷わない" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
-  <img src="{{ '/assets/images/Campaign-JP2.png' | relative_url }}?v=1" alt="RECORD — 肌で感じたすべてをログに" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+  <img src="{{ '/assets/images/Campaign-JP1.png' | relative_url }}?v=2" alt="EXPERIENCE — もう服装に迷わない" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+  <img src="{{ '/assets/images/Campaign-JP2.png' | relative_url }}?v=2" alt="RECORD — 肌で感じたすべてをログに" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
   <img src="{{ '/assets/images/Campaign-JP3.png' | relative_url }}?v=1" alt="REFINE — 自分だけの最適を見つける" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
 </div>
 

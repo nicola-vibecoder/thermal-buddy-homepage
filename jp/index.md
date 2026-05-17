@@ -69,8 +69,8 @@ hide_site_header: true
 <div class="campaign-carousel">
   <div class="carousel-track-wrapper" id="carouselWrapper">
     <div class="carousel-track" id="carouselTrack">
-      <img src="../assets/images/Campaign-JP1.png" alt="EXPERIENCE — No More Guesswork" class="carousel-slide">
-      <img src="../assets/images/Campaign-JP2.png" alt="RECORD — Every Skin Sensation" class="carousel-slide">
+      <img src="../assets/images/Campaign-JP1.png?v=2" alt="EXPERIENCE — No More Guesswork" class="carousel-slide">
+      <img src="../assets/images/Campaign-JP2.png?v=2" alt="RECORD — Every Skin Sensation" class="carousel-slide">
       <img src="../assets/images/Campaign-JP3.png" alt="REFINE — Find Your Perfect Setup" class="carousel-slide">
     </div>
   </div>
