@@ -44,6 +44,7 @@ title: Guide and FAQ
   - [How do I turn iCloud sync on or off?](#how-do-i-turn-icloud-sync-on-or-off)
   - [Can the developer see my personal logs?](#can-the-developer-see-my-personal-logs)
 - [Privacy & AI](#privacy--ai)
+  - [Does Thermal Buddy collect any usage data?](#does-thermal-buddy-collect-any-usage-data)
   - [Does Thermal Buddy use generative AI for my data?](#does-thermal-buddy-use-generative-ai-for-my-data)
 - [Troubleshooting & Support](#troubleshooting--support)
   - [iCloud sync is not working. What should I check?](#icloud-sync-is-not-working-what-should-i-check)
@@ -355,6 +356,16 @@ No. Your user-generated data is not accessible to us.
 ---
 
 ## Privacy & AI
+
+### Does Thermal Buddy collect any usage data?
+
+Yes, in a privacy-first way. Thermal Buddy uses **TelemetryDeck** to collect anonymised usage signals — for example, which onboarding steps were completed or whether the paywall was shown. These signals help us understand how the app is being used so we can improve it.
+
+TelemetryDeck double-hashes all identifiers on your device before any data leaves it, making it impossible to reconstruct your identity from what we receive. We never see your personal logs, gear, location, or any other content you enter in the app. No ATT consent prompt is required because no personal data is transmitted.
+
+For details, see our [Privacy Policy](/privacy).
+
+---
 
 ### Does Thermal Buddy use generative AI for my data?
 
