@@ -16,6 +16,10 @@ If something on this page matters to you, or if something important is missing e
 
 ## Coming in upcoming releases
 
+### Icons for Gear Categories
+
+Currently gear categories do not have icons. Plan is to create custom icons for gear categories. It also means more selection of icons for Activities and Scenes.
+
 ### Multi-day trips
 
 We want to add a way to group logs from a multi-day outing together. We are still figuring out the right approach — the goal is to keep things seamless for day-hikers who don't need it.
