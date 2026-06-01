@@ -14,15 +14,23 @@ If something on this page matters to you, or if something important is missing e
 
 ---
 
-## Recently shipped — v1.2.0
+## Coming next — committed for the next release
 
-### Icons for Gear Categories ✓
+### Copy a scene
 
-Gear categories now have custom icons, and Activities and Scenes have a wider icon selection too. All choosable from an in-app icon picker.
+When you stop to set up camp, you usually keep most of what you were already wearing and simply add a few layers. A new Copy action will let you duplicate a scene — with all its gear — then change the scene type and add the extra layers. No more re-entering the same items from scratch.
 
-### Multi-day trips ✓
+### Smoother date selection
 
-You can now group logs from a multi-day outing into a single trip. Each day is labelled automatically by date. Day-hikers who don't use trips see no change.
+Picking a date while logging is getting smoother. The calendar now stays open as you move between months and years, so choosing a past date takes a single pass instead of having to reopen the picker.
+
+---
+
+## Planned for a coming release
+
+### Tidy up your gear list
+
+Clean up your gear list directly: rename a gear item and have the change apply to every past log that used it — ideal for fixing a typo or a name that drifted over time — and remove items you added but never actually logged. A simpler way to keep your gear list tidy and accurate.
 
 ---
 
