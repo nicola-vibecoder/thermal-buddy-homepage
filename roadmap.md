@@ -18,11 +18,11 @@ If something on this page matters to you, or if something important is missing e
 
 ### Copy a scene
 
-When you stop to set up camp, you usually keep most of what you were already wearing and simply add a few layers. A new Copy action will let you duplicate a scene — with all its gear — then change the scene type and add the extra layers. No more re-entering the same items from scratch.
+When you stop to set up camp, you may keep most of what you were already wearing and simply add a few layers. A new Copy action will let you duplicate a scene — with all its gear — then change the scene type and add the extra layers. No more re-entering the same items from scratch.
 
 ### Smoother date selection
 
-Picking a date while logging is getting smoother. The calendar now stays open as you move between months and years, so choosing a past date takes a single pass instead of having to reopen the picker.
+Picking a date while logging is getting smoother. 
 
 ---
 
