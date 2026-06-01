@@ -6,7 +6,7 @@ title: Roadmap
 
 # Roadmap
 
-<p class="page-meta">Last updated: May 2026</p>
+<p class="page-meta">Last updated: June 2026</p>
 
 This page shares what we are currently working on and what we are thinking about next. Nothing here is a firm promise — real-world development has a way of surprising everyone — but it reflects where our heads are right now.
 
@@ -14,15 +14,15 @@ If something on this page matters to you, or if something important is missing e
 
 ---
 
-## Coming in upcoming releases
+## Recently shipped — v1.2.0
 
-### Icons for Gear Categories
+### Icons for Gear Categories ✓
 
-Currently gear categories do not have icons. Plan is to create custom icons for gear categories. It also means more selection of icons for Activities and Scenes.
+Gear categories now have custom icons, and Activities and Scenes have a wider icon selection too. All choosable from an in-app icon picker.
 
-### Multi-day trips
+### Multi-day trips ✓
 
-We want to add a way to group logs from a multi-day outing together. We are still figuring out the right approach — the goal is to keep things seamless for day-hikers who don't need it.
+You can now group logs from a multi-day outing into a single trip. Each day is labelled automatically by date. Day-hikers who don't use trips see no change.
 
 ---
 
