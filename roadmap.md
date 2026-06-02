@@ -30,6 +30,8 @@ Picking a date while logging is getting smoother.
 
 ### Tidy up your gear list
 
+This one came from our own gear list. In **My Gear**, two sleeping pads looked like duplicates — until we realised one was a typo: **Tensoe** Elite (already used in five logs) and **Tensor** Elite. Fixing the name log by log was not something we wanted to do, and we suspected neither would you after twenty entries.
+
 Clean up your gear list directly: rename a gear item and have the change apply to every past log that used it — ideal for fixing a typo or a name that drifted over time — and remove items you added but never actually logged. A simpler way to keep your gear list tidy and accurate.
 
 ---
